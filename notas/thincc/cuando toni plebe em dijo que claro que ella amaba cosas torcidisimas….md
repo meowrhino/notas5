@@ -1,0 +1,3 @@
+# cuando toni plebe em dijo que claro que ella amaba cosas torcidisimas…
+
+# cuando toni plebe em dijo que claro que ella amaba cosas torcidisimas en el sexo porque era su unica manera de poder lidiar con lo que una infancia en un colegio le había hecho vivir

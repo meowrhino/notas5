@@ -1,0 +1,4 @@
+# Es que a mí el capitalismo no me parece un mal sistema
+
+# 
+Es simplemente que no puedes aplicar lógicas capitalistas a un mundo en el que por ejemplo hay gente comprando el 10 % de la vivienda en Barcelona para luego ponerla al triple del precio mercado y como controla el 50 % del precio de mercado. El puede decidir cuál es el precio mercado y hay esta historia de que el próximo mercado es incontestable porque como es subjetivo o sea objetivo que bueno que se fio solo es que es esto al final es una historia es decir oye me da igual que el precio mercado es el que sea lo que pasa es que yo no puedo coger una casa y da igual que esté pasando a una persona o 20 personas también hay que plantearse que estamos haciendo no está bien es que no tiene ningún sentido que haya gente en la calle y casas cerradas y que asumamos que las cosas son asi porque bueno es que tienen que ser asi

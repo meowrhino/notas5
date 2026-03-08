@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>notas5</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>notas5</h1>
+    <input type="text" id="buscar" placeholder="buscar…">
+  </header>
+
+  <main id="estanteria"></main>
+
+  <!-- popup para leer nota -->
+  <div id="overlay" class="overlay hidden">
+    <div id="popup" class="popup">
+      <button id="cerrar-popup" class="cerrar">&times;</button>
+      <div id="popup-contenido"></div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

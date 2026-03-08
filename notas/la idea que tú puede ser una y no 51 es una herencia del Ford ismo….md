@@ -1,0 +1,3 @@
+# la idea que tú puede ser una y no 51 es una herencia del Ford ismo…
+
+la idea que tú puede ser una y no 51 es una herencia del Ford ismo, mezclado con la precariedad de la esclavitud que llevamos arrastrando desde épocas muy anteriores, solo que ahora reformulada en el Marco del tecno feudalismo

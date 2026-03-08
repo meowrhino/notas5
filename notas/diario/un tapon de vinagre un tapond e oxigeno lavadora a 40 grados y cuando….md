@@ -1,0 +1,3 @@
+# un tapon de vinagre un tapond e oxigeno lavadora a 40 grados y cuando…
+
+# un tapon de vinagre un tapond e oxigeno lavadora a 40 grados y cuando este todo en remojo pararla y dejarlo ahi en almibar

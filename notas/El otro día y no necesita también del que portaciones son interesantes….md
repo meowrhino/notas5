@@ -1,0 +1,3 @@
+# El otro día y no necesita también del que portaciones son interesantes…
+
+El otro día y no necesita también del que portaciones son interesantes y que no pero claro si algún día gilipollas en intereses son intereses que interesa al final tenemos sentido porque vas a hacer una especie de robot conversacional sabes y yo quiero que realmente lo importante de este podcast es que las fumadas mensajes de mí me hacen tan feliz que tú pues aquí las puedo compartir contigo y que tú también puedas aportar este conocimiento que no es mío sino como un conocimiento como ya vale cósmico llamo espiritual

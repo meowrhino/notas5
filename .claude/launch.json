@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "notas5",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5555", "-d", "/Users/manu/Documents/GitHub/notas5"],
+      "port": 5555
+    }
+  ]
+}

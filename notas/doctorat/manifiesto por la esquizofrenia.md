@@ -1,0 +1,2 @@
+# manifiesto por la esquizofrenia
+
