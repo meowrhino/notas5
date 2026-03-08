@@ -39,21 +39,30 @@ body {
 }
 
 #carpetas {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
 }
 
 /* ── carpeta card ──
    el color viene de --cat-color, inyectado por JS desde catColors */
+@keyframes carpeta-in {
+  from { opacity: 0; transform: translateY(16px) rotate(-1deg); }
+  to   { opacity: 1; transform: translateY(0) rotate(0); }
+}
+
 .carpeta {
-  width: 180px;
-  padding: 20px;
+  min-height: 100px;
+  padding: 22px 24px;
   border: 3px solid #1a1a1a;
   background: var(--cat-color, #f0f0f0);
   cursor: pointer;
   transition: transform 0.1s, box-shadow 0.1s;
-  box-shadow: 5px 5px 0 #1a1a1a;
+  box-shadow: 6px 6px 0 #1a1a1a;
+  position: relative;
+  overflow: hidden;
+  animation: carpeta-in 0.35s ease-out backwards;
+  animation-delay: calc(var(--i, 0) * 0.04s);
 }
 
 .carpeta:hover {
@@ -67,32 +76,38 @@ body {
 }
 
 .carpeta-nombre {
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 900;
   text-transform: lowercase;
   line-height: 1.2;
   word-break: break-word;
+  position: relative;
+  z-index: 1;
 }
 
 .carpeta-count {
-  font-size: 0.75rem;
-  font-weight: 700;
-  margin-top: 10px;
-  opacity: 0.5;
+  position: absolute;
+  bottom: -18px;
+  right: 6px;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  opacity: 0.18;
+  z-index: 0;
+  pointer-events: none;
 }
 
 /* ── ventana ──
-   overlay tipo Finder que ocupa casi toda la pantalla.
+   overlay fullscreen tipo Finder.
    contiene: titlebar → toolbar → contenido scrollable → sneak-peek */
 .ventana {
   position: fixed;
-  top: 3vh;
-  left: 3vw;
-  width: 94vw;
-  height: 94vh;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: #fffce8;
-  border: 3px solid #1a1a1a;
-  box-shadow: 8px 8px 0 #1a1a1a;
+  border: none;
   display: flex;
   flex-direction: column;
   z-index: 100;
@@ -104,6 +119,15 @@ body {
 @keyframes pop-in {
   from { opacity: 0; transform: scale(0.95) translate(10px, 10px); }
   to   { opacity: 1; transform: scale(1) translate(0, 0); }
+}
+
+@keyframes pop-out {
+  from { opacity: 1; transform: scale(1) translate(0, 0); }
+  to   { opacity: 0; transform: scale(0.96) translate(10px, 10px); }
+}
+
+.ventana.closing {
+  animation: pop-out 0.15s ease-in forwards;
 }
 
 /* titlebar — color de fondo se pone inline desde JS */
@@ -159,7 +183,7 @@ body {
   opacity: 0.5;
 }
 
-/* toolbar — botones de vista + buscador */
+/* toolbar — icono de vista cycle + zoom + buscador */
 .ventana-toolbar {
   display: flex;
   align-items: center;
@@ -172,13 +196,17 @@ body {
 .vista-btn {
   background: #fffce8;
   border: 2px solid #1a1a1a;
-  padding: 4px 12px;
+  padding: 6px 8px;
   cursor: pointer;
   font-family: inherit;
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 900;
   box-shadow: 2px 2px 0 #1a1a1a;
   transition: transform 0.1s, box-shadow 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
 }
 
 .vista-btn:hover {
@@ -186,12 +214,66 @@ body {
   box-shadow: 3px 3px 0 #1a1a1a;
 }
 
-/* botón activo: invertido, hundido */
-.vista-btn.active {
+.vista-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #1a1a1a;
+}
+
+/* ── mini CSS icons para el cycle button ── */
+
+/* solo se muestra el icono de la vista activa */
+#btn-vista-cycle { padding: 5px 7px; }
+#btn-vista-cycle .icon-grid,
+#btn-vista-cycle .icon-lista,
+#btn-vista-cycle .icon-lectura { display: none; }
+#btn-vista-cycle .icon-grid.active,
+#btn-vista-cycle .icon-lista.active,
+#btn-vista-cycle .icon-lectura.active { display: flex; }
+
+/* grid icon: 2x2 cuadraditos */
+.icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 14px;
+  height: 14px;
+  gap: 2px;
+}
+.icon-grid > span {
+  width: 6px;
+  height: 6px;
   background: #1a1a1a;
-  color: #fffce8;
-  transform: translate(2px, 2px);
-  box-shadow: 0 0 0 #1a1a1a;
+}
+
+/* lista icon: 3 rayitas */
+.icon-lista {
+  display: flex;
+  flex-direction: column;
+  width: 14px;
+  height: 14px;
+  justify-content: space-between;
+  padding: 1px 0;
+}
+.icon-lista > span {
+  width: 100%;
+  height: 2px;
+  background: #1a1a1a;
+}
+
+/* lectura icon: bloque con lineas finas */
+.icon-lectura {
+  display: flex;
+  flex-direction: column;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #1a1a1a;
+  justify-content: center;
+  gap: 2px;
+  padding: 1px 2px;
+}
+.icon-lectura > span {
+  width: 100%;
+  height: 1px;
+  background: #1a1a1a;
 }
 
 #buscar {
@@ -211,10 +293,11 @@ body {
   border-color: #1a1a1a;
 }
 
-/* contenido scrollable */
+/* contenido scrollable — overflow-x: hidden evita scroll horizontal al hacer zoom */
 .ventana-contenido {
   flex: 1;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 20px;
 }
 
@@ -223,11 +306,21 @@ body {
 .ventana-contenido::-webkit-scrollbar-track { background: #fffce8; border-left: 3px solid #1a1a1a; }
 .ventana-contenido::-webkit-scrollbar-thumb { background: #1a1a1a; border: 2px solid #fffce8; }
 
+/* ── animación de entrada para vistas ── */
+@keyframes vista-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.vista-grid, .vista-lista, .vista-lectura {
+  animation: vista-in 0.2s ease-out;
+}
+
 /* ── vista grid (masonry) ──
    CSS columns crea un layout tipo Pinterest donde cada tarjeta
    ocupa solo el espacio vertical que necesita */
 .vista-grid {
-  columns: 3 200px;
+  column-width: 220px;
   column-gap: 20px;
 }
 
@@ -273,21 +366,42 @@ body {
 .grid-item-footer {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   margin: 8px -14px -12px 0;
   align-self: flex-end;
 }
 
-/* badge oscuro para IMG/VID */
-.grid-item-media {
-  font-size: 0.6rem;
+/* ── badge tags (IMG/VID/LNK/AUD) ──
+   etiquetas de texto compactas estilo brutalist.
+   en grid footer: fondo negro, misma altura que la fecha.
+   en lista: borde + fondo blanco, inline junto al nombre. */
+.badge-tag {
+  font-size: 0.5rem;
   font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  flex-shrink: 0;
+  border: 2px solid #1a1a1a;
+  padding: 2px 4px;
+  background: #fff;
+}
+
+/* en grid footer: invertido (negro sobre crema) */
+.grid-item-footer .badge-tag {
   background: #1a1a1a;
   color: #fffce8;
-  padding: 3px 6px;
+  border: none;
   border-top: 2px solid #1a1a1a;
   border-left: 2px solid #1a1a1a;
-  letter-spacing: 0.05em;
+  padding: 3px 6px;
+  font-size: 0.6rem;
+}
+
+/* en lista, badges van inline junto al nombre */
+.lista-badges {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
 }
 
 /* fecha con color de la categoría (--grid-accent, set por JS) */
@@ -322,14 +436,7 @@ body {
   background: rgba(0,0,0,0.04);
 }
 
-.lista-icono {
-  font-size: 0.75rem;
-  font-weight: 900;
-  border: 2px solid #1a1a1a;
-  padding: 2px 6px;
-  background: #fff;
-  flex-shrink: 0;
-}
+/* lista-badges ya estilado arriba en la sección de badge icons */
 
 .lista-nombre {
   font-size: 0.85rem;
@@ -368,16 +475,15 @@ body {
    las notas se muestran una tras otra sin separadores duros,
    solo con espaciado generoso entre ellas */
 .vista-lectura {
-  max-width: 680px;
-  margin: 0 auto;
+  /* sin max-width: ocupa todo el ancho disponible */
 }
 
 .lectura-nota {
-  padding: 40px 0 48px;
+  padding: 20px 0 24px;
 }
 
 .lectura-nota:last-child {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 /* sneak peek — barra inferior que muestra título y fecha de la nota
@@ -437,7 +543,8 @@ body {
   margin-bottom: 0.8em;
 }
 
-.lectura-texto img {
+.lectura-texto img,
+.lectura-texto video {
   max-width: 100%;
   border: 3px solid #1a1a1a;
   box-shadow: 4px 4px 0 #1a1a1a;
@@ -507,14 +614,86 @@ mark.highlight {
   border-bottom: 2px solid #1a1a1a;
 }
 
+
+/* ── modal contraseña (sanchai) ── */
+.modal-pass {
+  position: fixed;
+  inset: 0;
+  background: rgba(26, 26, 26, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+.modal-pass.hidden { display: none; }
+
+.modal-pass-box {
+  background: #fffce8;
+  border: 3px solid #1a1a1a;
+  box-shadow: 8px 8px 0 #1a1a1a;
+  padding: 32px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  min-width: 280px;
+}
+
+.modal-pass-titulo {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.modal-pass-box input {
+  background: #fff;
+  border: 3px solid #1a1a1a;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 14px;
+  width: 100%;
+  outline: none;
+  box-shadow: 3px 3px 0 #1a1a1a;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.modal-pass-box input:focus {
+  box-shadow: 4px 4px 0 #ffd43b;
+}
+
+.modal-pass-box .vista-btn {
+  width: 100%;
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
+.modal-pass-error {
+  font-size: 0.75rem;
+  font-weight: 900;
+  color: #ff6b6b;
+  min-height: 1em;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+.modal-pass-box.shake {
+  animation: shake 0.4s ease-out;
+}
+
 /* ── responsive ── */
 @media (max-width: 600px) {
   #escritorio { padding: 20px; }
   #escritorio > h1 { font-size: 1.8rem; }
   #carpetas { gap: 12px; }
-  .carpeta { width: calc(50% - 6px); }
-  .ventana { top: 0; left: 0; width: 100vw; height: 100vh; box-shadow: none; }
+  #carpetas { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  .carpeta { min-height: 80px; }
+  /* ventana ya es fullscreen por defecto */
   .vista-grid { columns: 1; }
   #buscar { width: 120px; }
-  .lista-dia, .lista-hora { display: none; }
+  .lista-dia { display: none; }
+  .lista-fecha-year { display: none; }
 }

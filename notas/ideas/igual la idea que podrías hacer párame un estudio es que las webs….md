@@ -1,0 +1,3 @@
+# igual la idea que podrías hacer párame un estudio es que las webs…
+
+igual la idea que podrías hacer párame un estudio es que las webs fuesen las nubes que van como flotando por el espacio de Internet y que en lugar de nubes, pues que simplemente hayan las webs flotando puede ser muy divertido

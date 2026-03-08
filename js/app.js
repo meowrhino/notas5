@@ -22,17 +22,34 @@ const ventanaCount = document.getElementById('ventana-count');
 const ventanaContenido = document.getElementById('ventana-contenido');
 const cerrarBtn = document.getElementById('ventana-cerrar');
 const buscador = document.getElementById('buscar');
-const btnGrid = document.getElementById('btn-vista-grid');
-const btnLista = document.getElementById('btn-vista-lista');
-const btnLectura = document.getElementById('btn-vista-lectura');
+const btnCycle = document.getElementById('btn-vista-cycle');
+const btnZoomIn = document.getElementById('btn-zoom-in');
+const btnZoomOut = document.getElementById('btn-zoom-out');
 const sneakPeek = document.getElementById('sneak-peek');
 const sneakPeekTitulo = document.getElementById('sneak-peek-titulo');
 const sneakPeekFecha = document.getElementById('sneak-peek-fecha');
+
+// modal de contraseña (sanchai)
+const modalPass = document.getElementById('modal-pass');
+const modalPassInput = document.getElementById('modal-pass-input');
+const modalPassBtn = document.getElementById('modal-pass-btn');
+const modalPassError = document.getElementById('modal-pass-error');
+const modalPassBox = document.querySelector('.modal-pass-box');
+
+// iconos dentro del botón cycle
+const iconGrid = btnCycle.querySelector('.icon-grid');
+const iconLista = btnCycle.querySelector('.icon-lista');
+const iconLectura = btnCycle.querySelector('.icon-lectura');
 
 // ── estado ──
 
 let categoriaActual = null;
 let vistaActual = 'grid';
+let zoomLevel = 1;       // CSS zoom: 1 = 100%
+const ZOOM_STEP = 0.15;
+const ZOOM_MIN = 0.4;
+const ZOOM_MAX = 2.5;
+const vistas = ['grid', 'lista', 'lectura'];
 
 // colores por categoría — fuente única de verdad, también se inyectan
 // como CSS custom property --cat-color en cada carpeta del escritorio
@@ -48,6 +65,9 @@ const catColors = {
   main:            '#a9e34b',
   misc:            '#dee2e6',
   sueltas:         '#e8d5b7',
+  sanchai:         '#e599f7',
+  apuntes:         '#99e9f2',
+  demos:           '#ffc078',
 };
 
 // cache de archivos .md ya descargados (archivo → texto)
@@ -116,6 +136,10 @@ function mdToHtml(md, archivo) {
       const fullSrc = src.startsWith('http') ? src : base + src;
       return `<img src="${fullSrc}" alt="${alt}">`;
     })
+    .replace(/\[([^\]]+)\]\(([^)]+\.(mp4|mov|webm))\)/gi, (_, label, src) => {
+      const fullSrc = src.startsWith('http') ? src : base + src;
+      return `<video src="${fullSrc}" controls playsinline preload="metadata" style="max-width:100%"></video>`;
+    })
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
     .replace(/\n{2,}/g, '</p><p>')
     .replace(/^/, '<p>')
@@ -128,6 +152,7 @@ function construirEscritorio() {
   carpetasDiv.innerHTML = '';
   const cats = Object.entries(categorias).sort((a, b) => b[1].length - a[1].length);
 
+  let idx = 0;
   for (const [nombre, notas] of cats) {
     if (notas.length === 0) continue;
 
@@ -135,21 +160,71 @@ function construirEscritorio() {
     carpeta.className = 'carpeta';
     carpeta.dataset.cat = nombre;
     carpeta.style.setProperty('--cat-color', catColors[nombre] || '#dee2e6');
+    carpeta.style.setProperty('--i', idx++);
 
     carpeta.innerHTML = `
       <span class="carpeta-nombre">${nombre}</span>
-      <span class="carpeta-count">${notas.length} notas</span>
+      <span class="carpeta-count">${notas.length}</span>
     `;
-
-    carpeta.addEventListener('click', () => abrirCarpeta(nombre));
+    carpeta.addEventListener('click', () => {
+      if (nombre === 'sanchai' && !sanchiDesbloqueado) {
+        mostrarModalPass();
+      } else {
+        abrirCarpeta(nombre);
+      }
+    });
     carpetasDiv.appendChild(carpeta);
   }
 }
+
+// ── contraseña sanchai ──
+
+let sanchiDesbloqueado = false;
+const SANCHAI_HASH = 'wushu';
+
+function mostrarModalPass() {
+  modalPass.classList.remove('hidden');
+  modalPassInput.value = '';
+  modalPassError.textContent = '';
+  modalPassInput.focus();
+}
+
+function cerrarModalPass() {
+  modalPass.classList.add('hidden');
+  modalPassInput.value = '';
+  modalPassError.textContent = '';
+}
+
+function intentarPass() {
+  if (modalPassInput.value === SANCHAI_HASH) {
+    sanchiDesbloqueado = true;
+    cerrarModalPass();
+    abrirCarpeta('sanchai');
+  } else {
+    modalPassError.textContent = 'nope';
+    modalPassBox.classList.remove('shake');
+    void modalPassBox.offsetWidth; // force reflow para re-trigger animación
+    modalPassBox.classList.add('shake');
+    modalPassInput.value = '';
+    modalPassInput.focus();
+  }
+}
+
+modalPassBtn.addEventListener('click', intentarPass);
+modalPassInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') intentarPass();
+  if (e.key === 'Escape') cerrarModalPass();
+});
+modalPass.addEventListener('click', (e) => {
+  if (e.target === modalPass) cerrarModalPass();
+});
 
 // ── ventana (abrir / cerrar) ──
 
 function abrirCarpeta(nombre) {
   categoriaActual = nombre;
+  zoomLevel = 1;
+  applyZoom();
   ventanaTitulo.textContent = nombre;
   ventanaCount.textContent = `${categorias[nombre].length} notas`;
   ventanaTitlebar.style.background = catColors[nombre] || '#dee2e6';
@@ -159,9 +234,13 @@ function abrirCarpeta(nombre) {
 }
 
 function cerrar() {
-  ventana.classList.add('hidden');
-  sneakPeek.style.display = 'none';
-  categoriaActual = null;
+  ventana.classList.add('closing');
+  ventana.addEventListener('animationend', () => {
+    ventana.classList.add('hidden');
+    ventana.classList.remove('closing');
+    sneakPeek.style.display = 'none';
+    categoriaActual = null;
+  }, { once: true });
 }
 
 cerrarBtn.addEventListener('click', cerrar);
@@ -169,21 +248,43 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') cerrar();
 });
 
-// ── cambio de vista ──
+// ── cambio de vista (cycle) ──
+
+function updateVistaIcon() {
+  iconGrid.classList.toggle('active', vistaActual === 'grid');
+  iconLista.classList.toggle('active', vistaActual === 'lista');
+  iconLectura.classList.toggle('active', vistaActual === 'lectura');
+}
 
 function setVista(v) {
   vistaActual = v;
-  [btnGrid, btnLista, btnLectura].forEach(b => b.classList.remove('active'));
-  if (v === 'grid') btnGrid.classList.add('active');
-  if (v === 'lista') btnLista.classList.add('active');
-  if (v === 'lectura') btnLectura.classList.add('active');
+  updateVistaIcon();
   sneakPeek.style.display = v === 'lectura' ? 'flex' : 'none';
   renderVista();
 }
 
-btnGrid.addEventListener('click', () => setVista('grid'));
-btnLista.addEventListener('click', () => setVista('lista'));
-btnLectura.addEventListener('click', () => setVista('lectura'));
+// click en el icono cycle → avanza a la siguiente vista
+btnCycle.addEventListener('click', () => {
+  const idx = vistas.indexOf(vistaActual);
+  setVista(vistas[(idx + 1) % vistas.length]);
+});
+
+// ── zoom ──
+// aplica CSS zoom al contenido — escala toda la UI uniformemente
+
+function applyZoom() {
+  ventanaContenido.style.zoom = zoomLevel;
+}
+
+btnZoomIn.addEventListener('click', () => {
+  zoomLevel = Math.min(ZOOM_MAX, +(zoomLevel + ZOOM_STEP).toFixed(2));
+  applyZoom();
+});
+
+btnZoomOut.addEventListener('click', () => {
+  zoomLevel = Math.max(ZOOM_MIN, +(zoomLevel - ZOOM_STEP).toFixed(2));
+  applyZoom();
+});
 
 // ── render dispatcher ──
 
@@ -207,9 +308,21 @@ async function irANota(archivo) {
   }
 }
 
+// ── badges ──
+// genera HTML con badges compactos para cada tipo aplicable a una nota.
+// una nota puede tener varios badges a la vez (ej. LNK + IMG + AUD)
+function badgeIcons(nota) {
+  let html = '';
+  if (nota.links) html += '<span class="badge-tag">LNK</span>';
+  if (nota.img) html += '<span class="badge-tag">IMG</span>';
+  if (nota.video) html += '<span class="badge-tag">VID</span>';
+  if (nota.audio) html += '<span class="badge-tag">AUD</span>';
+  return html;
+}
+
 // ── vista grid ──
 // tarjetas masonry con título, preview y mordisco de fecha abajo a la derecha.
-// si la nota tiene imágenes o vídeo, aparece un badge (IMG/VID) junto a la fecha.
+// badges de tipo (LNK/IMG/VID) como mini icons junto a la fecha.
 function renderGrid(notas) {
   const container = document.createElement('div');
   container.className = 'vista-grid';
@@ -223,15 +336,11 @@ function renderGrid(notas) {
     const tituloHtml = highlightText(nota.titulo || nota.archivo, q);
     const previewHtml = nota.preview ? highlightText(nota.preview, q) : '';
 
-    let mediaBadgeHtml = '';
-    if (nota.media === 'img') mediaBadgeHtml = '<span class="grid-item-media">IMG</span>';
-    else if (nota.media === 'video') mediaBadgeHtml = '<span class="grid-item-media">VID</span>';
-
     item.innerHTML = `
       <span class="grid-item-nombre">${tituloHtml}</span>
       ${previewHtml ? `<div class="grid-item-preview">${previewHtml}</div>` : ''}
       <div class="grid-item-footer">
-        ${mediaBadgeHtml}
+        ${badgeIcons(nota)}
         <span class="grid-item-fecha">${nota.fecha || ''}</span>
       </div>
     `;
@@ -245,7 +354,8 @@ function renderGrid(notas) {
 }
 
 // ── vista lista ──
-// filas compactas tipo Finder: icono de tipo, nombre, día, fecha y hora.
+// filas compactas tipo Finder: badges + nombre + día + fecha + hora.
+// muestra todos los badges aplicables (no solo uno).
 function renderLista(notas) {
   const container = document.createElement('div');
   container.className = 'vista-lista';
@@ -255,14 +365,14 @@ function renderLista(notas) {
     const item = document.createElement('div');
     item.className = 'lista-item';
 
-    const icono = nota.media === 'video' ? 'VID' : nota.media === 'img' ? 'IMG' : 'TXT';
     const nombreHtml = highlightText(nota.titulo || nota.archivo, q);
+    const badges = badgeIcons(nota);
 
     item.innerHTML = `
-      <span class="lista-icono">${icono}</span>
+      <span class="lista-badges">${badges}</span>
       <span class="lista-nombre">${nombreHtml}</span>
       <span class="lista-dia">${nota.dia || ''}</span>
-      <span class="lista-fecha">${nota.fecha || ''}</span>
+      <span class="lista-fecha">${nota.fecha ? nota.fecha.slice(0, -3) : ''}<span class="lista-fecha-year">${nota.fecha ? nota.fecha.slice(-3) : ''}</span></span>
       <span class="lista-hora">${nota.hora || ''}</span>
     `;
 
@@ -351,4 +461,5 @@ ventanaContenido.addEventListener('scroll', () => {
 });
 
 // ── init ──
+updateVistaIcon();
 construirEscritorio();

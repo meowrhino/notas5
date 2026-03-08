@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>notas5</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -21,15 +22,29 @@
       <span class="ventana-count" id="ventana-count"></span>
     </div>
     <div class="ventana-toolbar">
-      <button id="btn-vista-grid" class="vista-btn active">grid</button>
-      <button id="btn-vista-lista" class="vista-btn">lista</button>
-      <button id="btn-vista-lectura" class="vista-btn">leer</button>
+      <button id="btn-vista-cycle" class="vista-btn" title="cambiar vista">
+        <span class="icon-grid"><span></span><span></span><span></span><span></span></span>
+        <span class="icon-lista"><span></span><span></span><span></span></span>
+        <span class="icon-lectura"><span></span><span></span><span></span></span>
+      </button>
+      <button id="btn-zoom-out" class="vista-btn" title="zoom out">&minus;</button>
+      <button id="btn-zoom-in" class="vista-btn" title="zoom in">&plus;</button>
       <input type="text" id="buscar" placeholder="buscar...">
     </div>
     <div class="ventana-contenido" id="ventana-contenido"></div>
     <div class="sneak-peek" id="sneak-peek" style="display:none">
       <span class="sneak-peek-titulo" id="sneak-peek-titulo"></span>
       <span class="sneak-peek-fecha" id="sneak-peek-fecha"></span>
+    </div>
+  </div>
+
+  <!-- modal contraseña para sanchai -->
+  <div id="modal-pass" class="modal-pass hidden">
+    <div class="modal-pass-box">
+      <span class="modal-pass-titulo">🔒</span>
+      <input type="password" id="modal-pass-input" placeholder="contraseña..." autocomplete="off">
+      <button id="modal-pass-btn" class="vista-btn">entrar</button>
+      <span id="modal-pass-error" class="modal-pass-error"></span>
     </div>
   </div>
 

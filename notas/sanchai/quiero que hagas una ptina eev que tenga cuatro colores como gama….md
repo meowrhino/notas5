@@ -1,0 +1,3 @@
+# quiero que hagas una ptina eev que tenga cuatro colores como gama…
+
+# quiero que hagas una ptina eev que tenga cuatro colores como gama de colores y que estos colores sean visibles a abajo a la derecha en un div que este ahi siempre y que al tocar uno de los colores te cambie ese color en la pagina tambien

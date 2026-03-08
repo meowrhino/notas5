@@ -1,0 +1,3 @@
+# añadir también en el por folio esta cosa de que si el proyecto cuando…
+
+añadir también en el por folio esta cosa de que si el proyecto cuando se ha terminado no se ha aportado los proyectos suficientes como para hacer una enseñanza y la enseñanza no se podrá realizar

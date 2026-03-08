@@ -54,12 +54,14 @@ def extraer_info(filepath):
 
     preview = ' '.join(preview_lines)[:150]
 
-    # detectar si la nota contiene imágenes o audio/vídeo
-    media = None
-    if re.search(r'\.(png|jpg|jpeg|gif|svg|webp)', contenido, re.I):
-        media = 'img'
-    if re.search(r'\.(mp4|mov|webm|mp3|ogg|m4a)', contenido, re.I):
-        media = 'video'  # video tiene prioridad sobre img
+    # detectar tipos de media (pueden coexistir)
+    has_img = bool(re.search(r'\.(png|jpg|jpeg|gif|svg|webp)', contenido, re.I))
+    has_video = bool(re.search(r'\.(mp4|mov|webm)', contenido, re.I))
+    has_audio = bool(re.search(r'\.(mp3|ogg|m4a|wav|flac)', contenido, re.I))
+
+    # detectar si contiene links (markdown [text](url) o URLs sueltas)
+    has_links = bool(re.search(r'\[.+?\]\(https?://', contenido)) or \
+                bool(re.search(r'(?<!\()https?://\S+', contenido))
 
     # fecha de creación (st_birthtime solo en macOS)
     stat = os.stat(filepath)
@@ -74,7 +76,10 @@ def extraer_info(filepath):
         'hora': dt.strftime('%H:%M'),        # 14:32
         'dia': dias_es[dt.weekday()],        # miércoles
         'preview': preview,
-        'media': media,
+        'img': has_img,
+        'video': has_video,
+        'audio': has_audio,
+        'links': has_links,
         '_sort': stat.st_birthtime,          # campo interno, se borra antes de exportar
     }
 
