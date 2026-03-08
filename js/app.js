@@ -234,6 +234,7 @@ function abrirCarpeta(nombre) {
 }
 
 function cerrar() {
+  if (ventana.classList.contains('closing') || ventana.classList.contains('hidden')) return;
   ventana.classList.add('closing');
   ventana.addEventListener('animationend', () => {
     ventana.classList.add('hidden');

@@ -688,8 +688,7 @@ mark.highlight {
 @media (max-width: 600px) {
   #escritorio { padding: 20px; }
   #escritorio > h1 { font-size: 1.8rem; }
-  #carpetas { gap: 12px; }
-  #carpetas { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  #carpetas { gap: 12px; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
   .carpeta { min-height: 80px; }
   /* ventana ya es fullscreen por defecto */
   .vista-grid { columns: 1; }
