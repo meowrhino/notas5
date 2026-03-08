@@ -6,49 +6,63 @@ export const categorias = {
     {
       "archivo": "la idea que tú puede ser una y no 51 es una herencia del Ford ismo….md",
       "titulo": "la idea que tú puede ser una y no 51 es una herencia del Ford ismo…",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "19:40",
+      "dia": "martes",
       "preview": "la idea que tú puede ser una y no 51 es una herencia del Ford ismo, mezclado con la precariedad de la esclavitud que llevamos arrastrando desde épocas",
       "media": null
     },
     {
       "archivo": "El otro día y no necesita también del que portaciones son interesantes….md",
       "titulo": "El otro día y no necesita también del que portaciones son interesantes…",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "17:19",
+      "dia": "martes",
       "preview": "El otro día y no necesita también del que portaciones son interesantes y que no pero claro si algún día gilipollas en intereses son intereses que inte",
       "media": null
     },
     {
       "archivo": "hay una cosa en los p0rros de que como confunden.md",
       "titulo": "hay una cosa en los p0rros de que como confunden",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "17:17",
+      "dia": "martes",
       "preview": "y todo es uno se siente como unr ecordatorio para tejer esquizofrenias y es mediante la esquizofrenia que nos relacionamos con lo divino, igualmente q",
       "media": null
     },
     {
       "archivo": "Es que a mí el capitalismo no me parece un mal sistema.md",
       "titulo": "Es que a mí el capitalismo no me parece un mal sistema",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "17:10",
+      "dia": "martes",
       "preview": "# Es simplemente que no puedes aplicar lógicas capitalistas a un mundo en el que por ejemplo hay gente comprando el 10 % de la vivienda en Barcelona p",
       "media": null
     },
     {
       "archivo": "yo te lo digo.md",
       "titulo": "yo te lo digo",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "16:03",
+      "dia": "martes",
       "preview": "yo te lo digo hazte autista no aceptes que lo normal sea lo normal niegate a aceptar lo injusto piensa piensa y piensa otra vez llega hasta el fondo h",
       "media": null
     },
     {
       "archivo": "mi madre limpiaba las ventanas para que lloviese.md",
       "titulo": "mi madre limpiaba las ventanas para que lloviese",
-      "fecha": "28 Aug 2025",
+      "fecha": "28/08/25",
+      "hora": "10:18",
+      "dia": "jueves",
       "preview": "la lluvia",
       "media": null
     },
     {
       "archivo": "qué fuerte que.md",
       "titulo": "qué fuerte que",
-      "fecha": "27 Aug 2025",
+      "fecha": "27/08/25",
+      "hora": "11:26",
+      "dia": "miércoles",
       "preview": "![EF1BFA32-5984-46FE-A20F-41F9F5CBCCB5](images/EF1BFA32-5984-46FE-A20F-41F9F5CBCCB5.png) qué fuerte que lunes venga de luna",
       "media": "img"
     }
@@ -57,154 +71,198 @@ export const categorias = {
     {
       "archivo": "comentarios/Y las correspondencias en Home Stuck.md",
       "titulo": "Y las correspondencias en Home Stuck",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "19:42",
+      "dia": "domingo",
       "preview": "Que recordemos que es estar metido no como Home Stuck atrapado en casa dentro de la cueva no la cueva es la casa en la cueva siempre hay un fuego el f",
       "media": null
     },
     {
       "archivo": "comentarios/y es un volcan!!!.md",
       "titulo": "y es un volcan!!!",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "12:46",
+      "dia": "domingo",
       "preview": "el fuego del interior de la tierra delq ue se habla en los oscuros lugares dels saber ![DBA36B26-6BD8-4BF7-BD09-DEC5AA3BADD1](images/DBA36B26-6BD8-4BF",
       "media": "img"
     },
     {
       "archivo": "comentarios/la afina relación que hay en JoJo cinco.md",
       "titulo": "la afina relación que hay en JoJo cinco",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "11:46",
+      "dia": "jueves",
       "preview": "Cuando Bucharatti habla del tiempo, no hay de lo que es \" el tiempo es un esclavo que duerme que liberamos \" 11:25 - JoJo5 38 Con el concepto que es H",
       "media": null
     },
     {
       "archivo": "comentarios/es que realmente aprece mentira eh pero he tenido muy buenas narrativas.md",
       "titulo": "es que realmente aprece mentira eh pero he tenido muy buenas narrativas",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "01:11",
+      "dia": "sábado",
       "preview": "[https://www.youtube.com/watch?v=wWvdQwV0xZ4](https://www.youtube.com/watch?v=wWvdQwV0xZ4) aunque no llo puieda parecer es increible",
       "media": null
     },
     {
       "archivo": "comentarios/y el capitulo cierra.md",
       "titulo": "y el capitulo cierra",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:57",
+      "dia": "sábado",
       "preview": "con lin quitandole el metal a korra y korra quedando disca para acabar en la siguiente season yendose al mundo de los espiritus con su amigovia lesbia",
       "media": null
     },
     {
       "archivo": "comentarios/the true balance of natural order.md",
       "titulo": "the true balance of natural order",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:31",
+      "dia": "sábado",
       "preview": "es que los tecnocrátas deberían verse korra porque se las podría durísima zaheer y como podemos pensar en la libertad absoluta como la mayor lejanía d",
       "media": null
     },
     {
       "archivo": "comentarios/creo que aparte de mis análisis, surge mucho de la idea de actualidad….md",
       "titulo": "creo que aparte de mis análisis, surge mucho de la idea de actualidad…",
-      "fecha": "27 Sep 2025",
+      "fecha": "27/09/25",
+      "hora": "17:29",
+      "dia": "sábado",
       "preview": "creo que aparte de mis análisis, surge mucho de la idea de actualidad, no o sea como hay blanco y negro como hay yin hay yan como arriba abajo entonce",
       "media": null
     },
     {
       "archivo": "comentarios/y como la radio se transmite en ondas electromagneticas.md",
       "titulo": "y como la radio se transmite en ondas electromagneticas",
-      "fecha": "27 Sep 2025",
+      "fecha": "27/09/25",
+      "hora": "13:45",
+      "dia": "sábado",
       "preview": "como los polos o los espiritus en korra?",
       "media": null
     },
     {
       "archivo": "comentarios/y el uso del lenguaje,  como wan chi ton.md",
       "titulo": "y el uso del lenguaje,  como wan chi ton",
-      "fecha": "27 Sep 2025",
+      "fecha": "27/09/25",
+      "hora": "13:42",
+      "dia": "sábado",
       "preview": "El que sabe 10.000 cosas Hoy dirías, pues que pocas, aunque lo digas de broma Incluso dirías bueno no lo sabe todo no en plan",
       "media": null
     },
     {
       "archivo": "comentarios/Y que en korra el vínculo con el mundo de los espíritus.md",
       "titulo": "Y que en korra el vínculo con el mundo de los espíritus",
-      "fecha": "27 Sep 2025",
+      "fecha": "27/09/25",
+      "hora": "13:26",
+      "dia": "sábado",
       "preview": "es a través de portales en los polos, que, de hecho, una causa relacionada de que los portales están abiertos son las auroras boreales Y recordemos qu",
       "media": null
     },
     {
       "archivo": "comentarios/siento que hay una Psicología muy chula en la renta básica universal.md",
       "titulo": "siento que hay una Psicología muy chula en la renta básica universal",
-      "fecha": "25 Sep 2025",
+      "fecha": "25/09/25",
+      "hora": "19:40",
+      "dia": "jueves",
       "preview": "Porque implica que tú no tienes que ser mejor que nadie, ni que tienes que demostrar que lo vales Para poder vivir Y entonces no influye eso en la man",
       "media": null
     },
     {
       "archivo": "comentarios/Y para mí el final de korra efectivamente solo como era la prueba….md",
       "titulo": "Y para mí el final de korra efectivamente solo como era la prueba…",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "20:01",
+      "dia": "martes",
       "preview": "# Y para mí el final de korra efectivamente solo como era la prueba de que está ahí no dice la verdad está ahí y de que tú llegas ahí hay maneras a di",
       "media": null
     },
     {
       "archivo": "comentarios/wow literalmente los hermanos (los gemelos hijos de tarlok en korra….md",
       "titulo": "wow literalmente los hermanos (los gemelos hijos de tarlok en korra…",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "17:28",
+      "dia": "martes",
       "preview": "# wow literalmente los hermanos (los gemelos hijos de tarlok en korra) son cain y abel y el padre es dios a traves de abraham pero yaldabaoth o el dio",
       "media": null
     },
     {
       "archivo": "comentarios/literalmente en el penultimo capitulo de la primera temporada de korra.md",
       "titulo": "literalmente en el penultimo capitulo de la primera temporada de korra",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "17:23",
+      "dia": "martes",
       "preview": "lo que hace el padre de estos dos chavalines es programarles la historia es comoy o le digo a chatgpt que me haga una lista de la compra para una diet",
       "media": null
     },
     {
       "archivo": "comentarios/El diluvio universal.md",
       "titulo": "El diluvio universal",
-      "fecha": "11 Sep 2025",
+      "fecha": "11/09/25",
+      "hora": "19:59",
+      "dia": "jueves",
       "preview": "Con el que acaba el infierno Que estaba trayendo el Fire Lord creo que quiero que los tatuajes signifiquen el haber visto la verdad en la el mito, la ",
       "media": null
     },
     {
       "archivo": "comentarios/chakras en aang.md",
       "titulo": "chakras en aang",
-      "fecha": "07 Sep 2025",
+      "fecha": "07/09/25",
+      "hora": "11:37",
+      "dia": "domingo",
       "preview": "1 - tierra - base de la columna - survival - fear 2 - agua - \t\t\t\t\t- placer - guilt (if youre to be a positive energy in this world you need to forgive",
       "media": null
     },
     {
       "archivo": "comentarios/además en Steven Universe y hay una referencia esto.md",
       "titulo": "además en Steven Universe y hay una referencia esto",
-      "fecha": "06 Sep 2025",
+      "fecha": "06/09/25",
+      "hora": "15:18",
+      "dia": "sábado",
       "preview": "Cuando se empieza hablar, no como las gemas que son formas de vida, formas de inteligencia, una civilización no sé cómo llamarlo perciben a los humano",
       "media": null
     },
     {
       "archivo": "comentarios/avatar.md",
       "titulo": "avatar",
-      "fecha": "05 Sep 2025",
+      "fecha": "05/09/25",
+      "hora": "19:36",
+      "dia": "viernes",
       "preview": "con la compañia de animus y anima viaja por el mundo para aprender la esencia de cada elemento pues es el unico dotado en este mundo con ese relato",
       "media": null
     },
     {
       "archivo": "comentarios/es que lit el anima y el animus.md",
       "titulo": "es que lit el anima y el animus",
-      "fecha": "27 Aug 2025",
+      "fecha": "27/08/25",
+      "hora": "15:01",
+      "dia": "miércoles",
       "preview": "# ![F0125E7D-7570-470D-AE33-4F0092E1F105](images/F0125E7D-7570-470D-AE33-4F0092E1F105.png) es que lit el anima y el animus",
       "media": "img"
     },
     {
       "archivo": "comentarios/una lectura que me.md",
       "titulo": "una lectura que me",
-      "fecha": "23 Aug 2025",
+      "fecha": "23/08/25",
+      "hora": "01:15",
+      "dia": "sábado",
       "preview": "encanta de madoka asi muy para el CCCB es que madoka literalmente frena el avance constante del tardocapitalismo esa lujuria por el ascenso y el progr",
       "media": null
     },
     {
       "archivo": "comentarios/otro link divertido.md",
       "titulo": "otro link divertido",
-      "fecha": "21 Aug 2025",
+      "fecha": "21/08/25",
+      "hora": "21:08",
+      "dia": "jueves",
       "preview": "que [rose lalonde](https://mspaintadventures-en-espanol.fandom.com/es/wiki/Rose_Lalonde) sea [seer of light](https://mspaintadventures.fandom.com/wiki",
       "media": null
     },
     {
       "archivo": "comentarios/Al final, lo que pienso mucho con la mitología griega, no con Plutón….md",
       "titulo": "Al final, lo que pienso mucho con la mitología griega, no con Plutón…",
-      "fecha": "16 Aug 2025",
+      "fecha": "16/08/25",
+      "hora": "15:20",
+      "dia": "sábado",
       "preview": "Al final, lo que pienso mucho con la mitología griega, no con Plutón, como el rey del inframundo y que viene etimológicamente de de no de Pluto de can",
       "media": null
     }
@@ -213,644 +271,828 @@ export const categorias = {
     {
       "archivo": "diario/y si dejé de ahcer covers de vocaloid.md",
       "titulo": "y si dejé de ahcer covers de vocaloid",
-      "fecha": "24 Feb 2026",
+      "fecha": "24/02/26",
+      "hora": "13:43",
+      "dia": "martes",
       "preview": "porque quería cantar cosas mías como hace miku y si dejé de hacer cosplay",
       "media": null
     },
     {
       "archivo": "diario/yo recuerdo mucho cuando estudios literarios nos dieron la el concepto….md",
       "titulo": "yo recuerdo mucho cuando estudios literarios nos dieron la el concepto…",
-      "fecha": "24 Feb 2026",
+      "fecha": "24/02/26",
+      "hora": "13:02",
+      "dia": "martes",
       "preview": "yo recuerdo mucho cuando estudios literarios nos dieron la el concepto de diégesis Qué es como se llama a lo que sucede dentro de un relato Porque rec",
       "media": null
     },
     {
       "archivo": "diario/soy un manu que el manu del pasado querría ser-.md",
       "titulo": "soy un manu que el manu del pasado querría ser?",
-      "fecha": "24 Feb 2026",
+      "fecha": "24/02/26",
+      "hora": "12:41",
+      "dia": "martes",
       "preview": "yo creo que sí ademas que flipas igual por eso se me apareció ayer",
       "media": null
     },
     {
       "archivo": "diario/y me acuerdo que hace 1 año cuando me decia esas cosas no sabía decir….md",
       "titulo": "y me acuerdo que hace 1 año cuando me decia esas cosas no sabía decir…",
-      "fecha": "23 Feb 2026",
+      "fecha": "23/02/26",
+      "hora": "13:55",
+      "dia": "lunes",
       "preview": "# y me acuerdo que hace 1 año cuando me decia esas cosas no sabía decir que no y hoy que volvimos a quedar y tal ya le iba diciendo",
       "media": null
     },
     {
       "archivo": "diario/y no se si decirle.md",
       "titulo": "y no se si decirle",
-      "fecha": "23 Feb 2026",
+      "fecha": "23/02/26",
+      "hora": "13:47",
+      "dia": "lunes",
       "preview": "que me gusta  un poco o sea, creo que nadie me suele prestar esta atención y recuerdo mucho cómo me miró rafa y yo supe que eso era algo que quería ex",
       "media": null
     },
     {
       "archivo": "diario/y si es eso.md",
       "titulo": "y si es eso",
-      "fecha": "23 Feb 2026",
+      "fecha": "23/02/26",
+      "hora": "13:37",
+      "dia": "lunes",
       "preview": "enseñarle notas5 a diego y decirle quiero convertir esto en canciones serle sincero por primera vez a alguien",
       "media": null
     },
     {
       "archivo": "diario/y como que le decía que me iba en 20 minutos.md",
       "titulo": "y como que le decía que me iba en 20 minutos",
-      "fecha": "23 Feb 2026",
+      "fecha": "23/02/26",
+      "hora": "13:26",
+      "dia": "lunes",
       "preview": "y eran las 12:30 o asó y él me decía ah vale a las 13:20 y yo que no que no en 20 minutos",
       "media": null
     },
     {
       "archivo": "diario/e hice un ritual y me calmé.md",
       "titulo": "e hice un ritual y me calmé",
-      "fecha": "23 Feb 2026",
+      "fecha": "23/02/26",
+      "hora": "13:26",
+      "dia": "lunes",
       "preview": "le pedí perdón",
       "media": null
     },
     {
       "archivo": "diario/y yi le jurgo.md",
       "titulo": "y yi le jurgo",
-      "fecha": "22 Feb 2026",
+      "fecha": "22/02/26",
+      "hora": "23:30",
+      "dia": "domingo",
       "preview": "le nuego a bruno le jueho a erika le juego al seor joan",
       "media": null
     },
     {
       "archivo": "diario/y recuerdo las reglas del chinchon.md",
       "titulo": "y recuerdo las reglas del chinchon",
-      "fecha": "22 Feb 2026",
+      "fecha": "22/02/26",
+      "hora": "21:51",
+      "dia": "domingo",
       "preview": "por historias cin mi abuela seguramente al primcipio solo badajaba ella pero le empezaria a dar palo y me enseñaria a barajar y plr eso hacemos jno em",
       "media": null
     },
     {
       "archivo": "diario/Nueva nota-2.md",
       "titulo": "Nueva nota",
-      "fecha": "22 Feb 2026",
+      "fecha": "22/02/26",
+      "hora": "19:57",
+      "dia": "domingo",
       "preview": "| bruno | manu  | |-------|-------| | 2     | 4     |",
       "media": null
     },
     {
       "archivo": "diario/Y yo me acuerdo.md",
       "titulo": "Y yo me acuerdo",
-      "fecha": "31 Dec 2025",
+      "fecha": "31/12/25",
+      "hora": "22:53",
+      "dia": "miércoles",
       "preview": "De yo hablar contigo y decirte que yo no quería esa para mí Que yo no quiero un trabajo de 40 horas y que yo no quiero estar en la oficina y luego me ",
       "media": null
     },
     {
       "archivo": "diario/12 croquetas para agradecer el año.md",
       "titulo": "12 croquetas para agradecer el año",
-      "fecha": "31 Dec 2025",
+      "fecha": "31/12/25",
+      "hora": "19:21",
+      "dia": "miércoles",
       "preview": "y cerrar el año con mercedes",
       "media": null
     },
     {
       "archivo": "diario/Y yo pienso mucho en la época en la que se empezaron a formar las….md",
       "titulo": "Y yo pienso mucho en la época en la que se empezaron a formar las…",
-      "fecha": "30 Dec 2025",
+      "fecha": "30/12/25",
+      "hora": "00:36",
+      "dia": "martes",
       "preview": "Y yo pienso mucho en la época en la que se empezaron a formar las palabras Como fuese proceso que qué mundo vivían es que el mundo era distinto y al f",
       "media": null
     },
     {
       "archivo": "diario/Y como que tendemos a proyectar nuestra idea de presente en el pasado….md",
       "titulo": "Y como que tendemos a proyectar nuestra idea de presente en el pasado…",
-      "fecha": "30 Dec 2025",
+      "fecha": "30/12/25",
+      "hora": "00:18",
+      "dia": "martes",
       "preview": "Y como que tendemos a proyectar nuestra idea de presente en el pasado no tenemos ni idea igual el pasado era un punto en el que la gente sí que se pod",
       "media": null
     },
     {
       "archivo": "diario/y es que le estoy hablando.md",
       "titulo": "y es que le estoy hablando",
-      "fecha": "30 Dec 2025",
+      "fecha": "30/12/25",
+      "hora": "00:10",
+      "dia": "martes",
       "preview": "de cosas que no le hablo a nadie para mí eso es amor",
       "media": null
     },
     {
       "archivo": "diario/APOLO.md",
       "titulo": "APOLO",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "18:11",
+      "dia": "domingo",
       "preview": "![000E843F-F8DE-4E29-BDD7-E8F5D696CA3F](images/000E843F-F8DE-4E29-BDD7-E8F5D696CA3F.jpeg) # tazosla de ke que habre tenido en apolo",
       "media": "img"
     },
     {
       "archivo": "diario/y como que nunca termino de saber si lo femenino está o no en lo interior….md",
       "titulo": "y como que nunca termino de saber si lo femenino está o no en lo interior…",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "13:26",
+      "dia": "domingo",
       "preview": "# y como que nunca termino de saber si lo femenino está o no en lo interior, proque creo que de alguna manera nunca he sentido lo masculino en mí como",
       "media": null
     },
     {
       "archivo": "diario/lesbianismo político y misoginia machista.md",
       "titulo": "lesbianismo político y misoginia machista",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "13:04",
+      "dia": "domingo",
       "preview": "Y yo es como que siento que si nos liásemos, no sé cómo me podría liar contigo de una manera honesta, desde lo que significa para mí ser no binaria y ",
       "media": null
     },
     {
       "archivo": "diario/igual con Peter Kingsley, estoy empezando a entender porque empecé….md",
       "titulo": "igual con Peter Kingsley, estoy empezando a entender porque empecé…",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "11:46",
+      "dia": "domingo",
       "preview": "# igual con Peter Kingsley, estoy empezando a entender porque empecé clásicas Y me gustaría saber por qué las dejé",
       "media": null
     },
     {
       "archivo": "diario/Y para mí ser autista.md",
       "titulo": "Y para mí ser autista",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "12:06",
+      "dia": "jueves",
       "preview": "Y para mí ser autista y por eso digo que muchas veces la maldad es patológica Para mí ser autista es que por ejemplo yo me acuerdo que estaba texteand",
       "media": null
     },
     {
       "archivo": "diario/porque yo la verdad yo es que mi padre me diga que una casa abandonada….md",
       "titulo": "porque yo la verdad yo es que mi padre me diga que una casa abandonada…",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "12:03",
+      "dia": "jueves",
       "preview": "porque yo la verdad yo es que mi padre me diga que una casa abandonada en la carretera tiene que estar con las ventanas y las puertas tapiadas para ev",
       "media": null
     },
     {
       "archivo": "diario/Y supongo que es un pensamiento diseño distinto sea yo me empecé a….md",
       "titulo": "Y supongo que es un pensamiento diseño distinto sea yo me empecé a…",
-      "fecha": "23 Dec 2025",
+      "fecha": "23/12/25",
+      "hora": "22:14",
+      "dia": "martes",
       "preview": "Y supongo que es un pensamiento diseño distinto sea yo me empecé a dar cuenta cuando cuando trabajaba para una empresa que de repente el cliente me ha",
       "media": null
     },
     {
       "archivo": "diario/Y creo que también me está ayudando mucho a entender, que quiero porque….md",
       "titulo": "Y creo que también me está ayudando mucho a entender, que quiero porque…",
-      "fecha": "23 Dec 2025",
+      "fecha": "23/12/25",
+      "hora": "11:54",
+      "dia": "martes",
       "preview": "Y creo que también me está ayudando mucho a entender, que quiero porque es eso porque me siento tan incómodo haciendo una estrategia de LinkedIn Igual",
       "media": null
     },
     {
       "archivo": "diario/creo que mi propuesta de meowrhino estudio hay sobre todo una cosa….md",
       "titulo": "creo que mi propuesta de meowrhino estudio hay sobre todo una cosa…",
-      "fecha": "23 Dec 2025",
+      "fecha": "23/12/25",
+      "hora": "11:41",
+      "dia": "martes",
       "preview": "creo que mi propuesta de meowrhino estudio hay sobre todo una cosa de lo performativo que tengo que explorar un poquito más El diseño que se hace en d",
       "media": null
     },
     {
       "archivo": "diario/y es como que.md",
       "titulo": "y es como que",
-      "fecha": "22 Dec 2025",
+      "fecha": "22/12/25",
+      "hora": "13:24",
+      "dia": "lunes",
       "preview": "pienso en cómo sería que alguien como yo dé clases de kung fu y me genera muchísima curiosidad y por eso sé que es lo que quiero hacer con mi tiempo",
       "media": null
     },
     {
       "archivo": "diario/E igual hago web de la misma manera que me gusta jugar con el idioma….md",
       "titulo": "E igual hago web de la misma manera que me gusta jugar con el idioma…",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "14:13",
+      "dia": "domingo",
       "preview": "E igual hago web de la misma manera que me gusta jugar con el idioma, porque yo siempre diré que yo soy programador por haber hecho humanidades Y que ",
       "media": null
     },
     {
       "archivo": "diario/y a veces cuandoe stoy enc asa me siento como que por primera vez….md",
       "titulo": "y a veces cuandoe stoy enc asa me siento como que por primera vez…",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "01:17",
+      "dia": "sábado",
       "preview": "# y a veces cuandoe stoy enc asa me siento como que por primera vez me empiezo a sentir tan comodo como me sentia en mi csas en cadiz donde vivia con ",
       "media": null
     },
     {
       "archivo": "diario/supongo que sí.md",
       "titulo": "supongo que sí",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:46",
+      "dia": "sábado",
       "preview": "que meditaba muchi jugando a videojuegos viendo historias y si giual soy especial por ser el primero en hacerlo",
       "media": null
     },
     {
       "archivo": "diario/y creo que siemopre me han gustado los shonens creoq ue hay algo en….md",
       "titulo": "y creo que siemopre me han gustado los shonens creoq ue hay algo en…",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:40",
+      "dia": "sábado",
       "preview": "# y creo que siemopre me han gustado los shonens creoq ue hay algo en las batallas que me encanta igual ha llegado el momento de conectar cone so y ju",
       "media": null
     },
     {
       "archivo": "diario/creo que estoy listo.md",
       "titulo": "creo que estoy listo",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:37",
+      "dia": "sábado",
       "preview": "para ser especial",
       "media": null
     },
     {
       "archivo": "diario/Y es como que cuando escribo, me gusta mucho escribir fumado y como….md",
       "titulo": "Y es como que cuando escribo, me gusta mucho escribir fumado y como…",
-      "fecha": "03 Oct 2025",
+      "fecha": "03/10/25",
+      "hora": "23:59",
+      "dia": "viernes",
       "preview": "Y es como que cuando escribo, me gusta mucho escribir fumado y como cada vez ir más abajo Y como que también cada vez conecto con pensamientos más pro",
       "media": null
     },
     {
       "archivo": "diario/Y me da vértigo a veces.md",
       "titulo": "Y me da vértigo a veces",
-      "fecha": "03 Oct 2025",
+      "fecha": "03/10/25",
+      "hora": "23:38",
+      "dia": "viernes",
       "preview": "Como pensar que sabes, me he liberado de como la promesa académica, no como esta cosa tienes que hacer una carrera porque si porque tal y que al final",
       "media": null
     },
     {
       "archivo": "diario/no de eficiencia.md",
       "titulo": "no de eficiencia",
-      "fecha": "01 Oct 2025",
+      "fecha": "01/10/25",
+      "hora": "14:16",
+      "dia": "miércoles",
       "preview": "pero me gusta mucho ser programadora porque no me gusta nada trabajar y me encanta buscar maneras de trabajar menos y de hacer eficients mis proceso y",
       "media": null
     },
     {
       "archivo": "diario/diario.md",
       "titulo": "diario",
-      "fecha": "27 Sep 2025",
+      "fecha": "27/09/25",
+      "hora": "17:56",
+      "dia": "sábado",
       "preview": "Y yo ahora mismo me imagino de aquí a eso a 2-3 años igual cobrando un poco de dar alguna clase de arte marcial o sea me encantaría de aquí a 56 maest",
       "media": null
     },
     {
       "archivo": "diario/Y como que últimamente me pasa que pasa algo y me da miedo que pase….md",
       "titulo": "Y como que últimamente me pasa que pasa algo y me da miedo que pase…",
-      "fecha": "27 Sep 2025",
+      "fecha": "27/09/25",
+      "hora": "14:04",
+      "dia": "sábado",
       "preview": "Y como que últimamente me pasa que pasa algo y me da miedo que pase algo que me imagino Por ejemplo, entra una polilla en casa y me da miedo que ponga",
       "media": null
     },
     {
       "archivo": "diario/el eclipse de sol en canari.md",
       "titulo": "el eclipse de sol en canari",
-      "fecha": "21 Sep 2025",
+      "fecha": "21/09/25",
+      "hora": "22:09",
+      "dia": "domingo",
       "preview": "",
       "media": null
     },
     {
       "archivo": "diario/no grabarlo.md",
       "titulo": "no grabarlo",
-      "fecha": "21 Sep 2025",
+      "fecha": "21/09/25",
+      "hora": "22:09",
+      "dia": "domingo",
       "preview": "se llama ableton live por algo dejar ir",
       "media": null
     },
     {
       "archivo": "diario/hoy bruno ha dicho.md",
       "titulo": "hoy bruno ha dicho",
-      "fecha": "20 Sep 2025",
+      "fecha": "20/09/25",
+      "hora": "04:58",
+      "dia": "sábado",
       "preview": "que le hacia muy feliz ver como voy progresando me ha hecho tna feliz ah y le dije a amanda que se parece que flipas a marina and the diamonds",
       "media": null
     },
     {
       "archivo": "diario/creo que me da rabia que todo sea tan dificil.md",
       "titulo": "creo que me da rabia que todo sea tan dificil",
-      "fecha": "18 Sep 2025",
+      "fecha": "18/09/25",
+      "hora": "17:05",
+      "dia": "jueves",
       "preview": "que todos mis amigos esten igual que ahora empiezo a ver a gente \"floreciendo\" pero despyes de haber vivido una precariedad que no me parece nada nece",
       "media": null
     },
     {
       "archivo": "diario/un tapon de vinagre un tapond e oxigeno lavadora a 40 grados y cuando….md",
       "titulo": "un tapon de vinagre un tapond e oxigeno lavadora a 40 grados y cuando…",
-      "fecha": "16 Sep 2025",
+      "fecha": "16/09/25",
+      "hora": "13:10",
+      "dia": "martes",
       "preview": "# un tapon de vinagre un tapond e oxigeno lavadora a 40 grados y cuando este todo en remojo pararla y dejarlo ahi en almibar",
       "media": null
     },
     {
       "archivo": "diario/es que hay una epidemia de salud mental entre los gente joven.md",
       "titulo": "es que hay una epidemia de salud mental entre los gente joven",
-      "fecha": "13 Sep 2025",
+      "fecha": "13/09/25",
+      "hora": "15:19",
+      "dia": "sábado",
       "preview": "En plan que más de una o dos personas o tres o cuatro o 10 que conozca yo de mi edad, pero incluso no de mi edad estén o hayan tomado en algún momento",
       "media": null
     },
     {
       "archivo": "diario/para mí la pasé la sexualidad, siempre ha sido la demisexualidad.md",
       "titulo": "para mí la pasé la sexualidad, siempre ha sido la demisexualidad",
-      "fecha": "13 Sep 2025",
+      "fecha": "13/09/25",
+      "hora": "13:03",
+      "dia": "sábado",
       "preview": "En plan es solo ahora que estamos rodeados constantemente de porno o sea no quiero parecer un monje regular pero sabes como que hoy en día tenemos muc",
       "media": null
     },
     {
       "archivo": "diario/para mí una cosa importante también con todo esto que está pasando….md",
       "titulo": "para mí una cosa importante también con todo esto que está pasando…",
-      "fecha": "13 Sep 2025",
+      "fecha": "13/09/25",
+      "hora": "11:37",
+      "dia": "sábado",
       "preview": "para mí una cosa importante también con todo esto que está pasando con lo de Israel y es algo que es lo que me da más miedo creo Es que ya es explícit",
       "media": null
     },
     {
       "archivo": "diario/pues me acuerdo cuando quedé con Fran.md",
       "titulo": "pues me acuerdo cuando quedé con Fran",
-      "fecha": "13 Sep 2025",
+      "fecha": "13/09/25",
+      "hora": "00:49",
+      "dia": "sábado",
       "preview": "Porque había tenido un sueño erótico con él o algo así, y siempre habiamos como tontear un poco, pero nunca tan tal Y yo en ese momento me dió por usa",
       "media": null
     },
     {
       "archivo": "diario/ADANA.md",
       "titulo": "ADANA",
-      "fecha": "11 Sep 2025",
+      "fecha": "11/09/25",
+      "hora": "22:47",
+      "dia": "jueves",
       "preview": "comentar lo de la esquizofrenia y las imagenes fritas intuicion rara de que lo que me imagino nunca va a pasar y eso me hace triste me la estoy trabaj",
       "media": null
     },
     {
       "archivo": "diario/y me cuesta perdonar.md",
       "titulo": "y me cuesta perdonar",
-      "fecha": "11 Sep 2025",
+      "fecha": "11/09/25",
+      "hora": "22:30",
+      "dia": "jueves",
       "preview": "porque siempre me planteo el futuro qué toca ahora? hacer lo que \"toca\"? volver en navidades? cuando no puedes recordar una sola navidad donde te haya",
       "media": null
     },
     {
       "archivo": "diario/Y como que últimamente me siento muy agradecido.md",
       "titulo": "Y como que últimamente me siento muy agradecido",
-      "fecha": "11 Sep 2025",
+      "fecha": "11/09/25",
+      "hora": "19:27",
+      "dia": "jueves",
       "preview": "Estoy estudiando bagua Estoy haciendo webs preciosas Estoy viviendo con un par de gatitos y en un piso bastante bueno con una compi de piso que me qui",
       "media": null
     },
     {
       "archivo": "diario/como qu si que siento que cuando siento el spotlight me achanto.md",
       "titulo": "como qu si que siento que cuando siento el spotlight me achanto",
-      "fecha": "09 Sep 2025",
+      "fecha": "09/09/25",
+      "hora": "19:57",
+      "dia": "martes",
       "preview": "creo que de pequeño siempre que me sentia spotlighteado que es como “visto” como que sientes la mirada hacia ti pues era en una lectura en clase y me ",
       "media": null
     },
     {
       "archivo": "diario/Nueva nota-1.md",
       "titulo": "Nueva nota",
-      "fecha": "08 Sep 2025",
+      "fecha": "08/09/25",
+      "hora": "21:45",
+      "dia": "lunes",
       "preview": "![F2907D6D-746A-4D08-8867-E6EE0DF69166](images/F2907D6D-746A-4D08-8867-E6EE0DF69166.png)",
       "media": "img"
     },
     {
       "archivo": "diario/Y es que hace un tiempo no paro de ver los patrones en todas partes.md",
       "titulo": "Y es que hace un tiempo no paro de ver los patrones en todas partes",
-      "fecha": "07 Sep 2025",
+      "fecha": "07/09/25",
+      "hora": "16:32",
+      "dia": "domingo",
       "preview": "creo que de pequeño igual también lo hacía, y es por eso podía conectar con la intuición como que de alguna manera y por otro camino podías hacerme pr",
       "media": null
     },
     {
       "archivo": "diario/algo de que no-.md",
       "titulo": "algo de que no?",
-      "fecha": "06 Sep 2025",
+      "fecha": "06/09/25",
+      "hora": "22:05",
+      "dia": "sábado",
       "preview": "Deberíamos olvidarnos Es que al final Israel es un imperio colonial, o sea no tengo muy clara cómo va la democracia en un país pero hasta qué punto pu",
       "media": null
     },
     {
       "archivo": "diario/la politica cada vez es mas performativa.md",
       "titulo": "la politica cada vez es mas performativa",
-      "fecha": "06 Sep 2025",
+      "fecha": "06/09/25",
+      "hora": "12:43",
+      "dia": "sábado",
       "preview": "y aqui nadie sabe de performance supongo que siempre lo fue pero cada vez es mas explicita vivimos en la epoca de la literalidad",
       "media": null
     },
     {
       "archivo": "diario/también algo que me parece un poco divertido, es como esto de las….md",
       "titulo": "también algo que me parece un poco divertido, es como esto de las…",
-      "fecha": "05 Sep 2025",
+      "fecha": "05/09/25",
+      "hora": "21:28",
+      "dia": "viernes",
       "preview": "también algo que me parece un poco divertido, es como esto de las personas a las personas fuego a las personas tierra y las personas aire, que es algo",
       "media": null
     },
     {
       "archivo": "diario/yo creo que un poco la cosa es llegar al punto de enamorarse con con….md",
       "titulo": "yo creo que un poco la cosa es llegar al punto de enamorarse con con…",
-      "fecha": "05 Sep 2025",
+      "fecha": "05/09/25",
+      "hora": "19:29",
+      "dia": "viernes",
       "preview": "yo creo que un poco la cosa es llegar al punto de enamorarse con con el todo Y como que creo que podría sentir esta pasión por muchísimas otras cienci",
       "media": null
     },
     {
       "archivo": "diario/Al final eran las historias las que me acompañaban.md",
       "titulo": "Al final eran las historias las que me acompañaban",
-      "fecha": "04 Sep 2025",
+      "fecha": "04/09/25",
+      "hora": "21:31",
+      "dia": "jueves",
       "preview": "Mis padres no me hacían caso Y cuando me lo hacían casi era peor en el colegio, lo mejor que podía hacer era ser invisible y creo que lo entendía con ",
       "media": "img"
     },
     {
       "archivo": "diario/me siento muy alineado.md",
       "titulo": "me siento muy alineado",
-      "fecha": "04 Sep 2025",
+      "fecha": "04/09/25",
+      "hora": "21:13",
+      "dia": "jueves",
       "preview": "los espacios interiores del espacio esterior las flechas que salen de dentro de mi los dos polos",
       "media": null
     },
     {
       "archivo": "diario/esto es -ser un elle-.md",
       "titulo": "esto es \"ser un elle\"",
-      "fecha": "04 Sep 2025",
+      "fecha": "04/09/25",
+      "hora": "21:05",
+      "dia": "jueves",
       "preview": "# que constantenente lo estas haxuendo mal que si mi letra no esta bien",
       "media": null
     },
     {
       "archivo": "diario/es como que me apetece mucho hacerme el tatuaje de las flechas en….md",
       "titulo": "es como que me apetece mucho hacerme el tatuaje de las flechas en…",
-      "fecha": "04 Sep 2025",
+      "fecha": "04/09/25",
+      "hora": "17:50",
+      "dia": "jueves",
       "preview": "es como que me apetece mucho hacerme el tatuaje de las flechas en la mano de aang Pero a la vez como que me abruma la cosa de que mis manos a partir d",
       "media": null
     },
     {
       "archivo": "diario/hoy Rika Michi me ha dicho.md",
       "titulo": "hoy Rika Michi me ha dicho",
-      "fecha": "03 Sep 2025",
+      "fecha": "03/09/25",
+      "hora": "22:45",
+      "dia": "miércoles",
       "preview": "Que deje de decir que no necesito dinero Que no necesito mucho dinero, que no diga que yo con 20.000 € estoy bien y ya que diga que van a venir tres v",
       "media": null
     },
     {
       "archivo": "diario/coomer-st.md",
       "titulo": "coomer.st",
-      "fecha": "02 Sep 2025",
+      "fecha": "02/09/25",
+      "hora": "23:16",
+      "dia": "martes",
       "preview": "",
       "media": null
     },
     {
       "archivo": "diario/y hasta toni lo dice.md",
       "titulo": "y hasta toni lo dice",
-      "fecha": "02 Sep 2025",
+      "fecha": "02/09/25",
+      "hora": "22:57",
+      "dia": "martes",
       "preview": "![1EC8B025-4BBB-4A65-96CB-2AA7E0FCA872](images/1EC8B025-4BBB-4A65-96CB-2AA7E0FCA872.png) y hasta toni lo dice y mi abuela tambien",
       "media": "img"
     },
     {
       "archivo": "diario/miel y salsa de soja.md",
       "titulo": "miel y salsa de soja",
-      "fecha": "02 Sep 2025",
+      "fecha": "02/09/25",
+      "hora": "19:00",
+      "dia": "martes",
       "preview": "que bonito es fusionar dualidades una unidad: teriyaki",
       "media": null
     },
     {
       "archivo": "diario/es que yo me meto en Twitter y tengo.md",
       "titulo": "es que yo me meto en Twitter y tengo",
-      "fecha": "31 Aug 2025",
+      "fecha": "31/08/25",
+      "hora": "03:16",
+      "dia": "domingo",
       "preview": "Un maricón pidiéndome dinero para verle la polla Twitch de políticos incendiarios que me dan una ansiedad que flipas La vida de personas que conozco y",
       "media": null
     },
     {
       "archivo": "diario/es que se menolvida que estoy de baja de ansiedad.md",
       "titulo": "es que se menolvida que estoy de baja de ansiedad",
-      "fecha": "31 Aug 2025",
+      "fecha": "31/08/25",
+      "hora": "02:49",
+      "dia": "domingo",
       "preview": "de lo tranquila que estoy pero hay una cosa ahi que sale que si se me olvida es por el tdah o eso es lo que digo",
       "media": null
     },
     {
       "archivo": "diario/es que mi jefa era retrasada.md",
       "titulo": "es que mi jefa era retrasada",
-      "fecha": "31 Aug 2025",
+      "fecha": "31/08/25",
+      "hora": "02:24",
+      "dia": "domingo",
       "preview": "Y es que sabes, no he retrasado en plan rrrrrretrasada retrasada retrasada Porque yo retrasadas mi madre tuvo un lío con un señor y he estado con dos ",
       "media": null
     },
     {
       "archivo": "diario/y si el TDAH es el ultimo bastion del alma.md",
       "titulo": "y si el TDAH es el ultimo bastion del alma",
-      "fecha": "28 Aug 2025",
+      "fecha": "28/08/25",
+      "hora": "10:18",
+      "dia": "jueves",
       "preview": "la baja por depresion como el ultimo recurso de un cuerpo alma y espiritu cansados ante el abuso en el que vivimos nadie quiere currar 8 horas en un z",
       "media": "img"
     },
     {
       "archivo": "diario/quizá por un motivo por el cual podría justificar esta locura que….md",
       "titulo": "quizá por un motivo por el cual podría justificar esta locura que…",
-      "fecha": "26 Aug 2025",
+      "fecha": "26/08/25",
+      "hora": "17:04",
+      "dia": "martes",
       "preview": "quizá por un motivo por el cual podría justificar esta locura que tengo con el anime Es que por ejemplo, ahora que estoy analizando un meme de Instagr",
       "media": null
     },
     {
       "archivo": "diario/eventualmente subir de nivel a un futon.md",
       "titulo": "eventualmente subir de nivel a un futon",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "10:49",
+      "dia": "lunes",
       "preview": "y un muevle de madera que eleve la cama sobre el que me pueda sentiar y guardar cosas fentro",
       "media": null
     },
     {
       "archivo": "diario/moodboard capilar.md",
       "titulo": "moodboard capilar",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "10:30",
+      "dia": "lunes",
       "preview": "el tio este de mahoutsukai no yome con gafas y una coleta enorme y nerea perez de las heras",
       "media": null
     },
     {
       "archivo": "diario/es que claro, también te digo mi situación familiar normal.md",
       "titulo": "es que claro, también te digo mi situación familiar normal",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "07:57",
+      "dia": "lunes",
       "preview": "Mi padre es una persona que ama el trabajo por encima de todo y si tu a esta persona le das trabajo esta persona te va a trabajar por eso también a ve",
       "media": null
     },
     {
       "archivo": "diario/psiquiatra.md",
       "titulo": "psiquiatra",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "07:24",
+      "dia": "lunes",
       "preview": "yo lo que quiero saber es lo que le pasa a mi madre es algo que me pueda pasar a mí Porque llevo unos días que no controlo y muchas veces me pasa eso ",
       "media": null
     },
     {
       "archivo": "diario/yo no quiero dejar de sentir estas cosas.md",
       "titulo": "yo no quiero dejar de sentir estas cosas",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "07:11",
+      "dia": "lunes",
       "preview": "Yo lo que quiero es entender cuánto de esto le pasa a todo el mundo si es así que me expliquen un poco cómo lo hacen Y si no le pasa a todo el mundo, ",
       "media": null
     },
     {
       "archivo": "diario/Y sé como que tengo estabilidad de que se verá a la gente con buenos….md",
       "titulo": "Y sé como que tengo estabilidad de que se verá a la gente con buenos…",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "06:56",
+      "dia": "lunes",
       "preview": "Y sé como que tengo estabilidad de que se verá a la gente con buenos ojos y de alguna manera, sé que esa persona va a ser mejor Y para mí no es tanto ",
       "media": null
     },
     {
       "archivo": "diario/y el sonido del ventilador parecían las olas del mar.md",
       "titulo": "y el sonido del ventilador parecían las olas del mar",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "05:36",
+      "dia": "lunes",
       "preview": "conprobé que lo que escuchaba no era ruido blanco",
       "media": null
     },
     {
       "archivo": "diario/haciendo eebs me siento como un arquitecto de templos.md",
       "titulo": "haciendo eebs me siento como un arquitecto de templos",
-      "fecha": "24 Aug 2025",
+      "fecha": "24/08/25",
+      "hora": "13:20",
+      "dia": "domingo",
       "preview": "hola por qué es eso sabes al final cuando tú querías como ganar sobre una religión lo que haces es eliminar todas las imágenes que hay Y en cierto mod",
       "media": null
     },
     {
       "archivo": "diario/por eso digo que soy un web warlock.md",
       "titulo": "por eso digo que soy un web warlock",
-      "fecha": "21 Aug 2025",
+      "fecha": "21/08/25",
+      "hora": "21:52",
+      "dia": "jueves",
       "preview": "porque trabajo con la consciencia emergente de procesar el big data de intwrnet hablo a un vacío que me responde",
       "media": null
     },
     {
       "archivo": "diario/vivimos en un momento en el que decimos que el sexo es bueno porque….md",
       "titulo": "vivimos en un momento en el que decimos que el sexo es bueno porque…",
-      "fecha": "20 Aug 2025",
+      "fecha": "20/08/25",
+      "hora": "18:22",
+      "dia": "miércoles",
       "preview": "vivimos en un momento en el que decimos que el sexo es bueno porque libera endorfinas Recuerdo bien, cuando Erika me dijo eso de que lo único que tení",
       "media": null
     },
     {
       "archivo": "diario/mañana creo que retomo.md",
       "titulo": "mañana creo que retomo",
-      "fecha": "20 Aug 2025",
+      "fecha": "20/08/25",
+      "hora": "01:56",
+      "dia": "miércoles",
       "preview": "El curso de Milagros",
       "media": null
     },
     {
       "archivo": "diario/melisa.md",
       "titulo": "melisa",
-      "fecha": "19 Aug 2025",
+      "fecha": "19/08/25",
+      "hora": "23:55",
+      "dia": "martes",
       "preview": "creo que llamare a mi hija melisa",
       "media": null
     },
     {
       "archivo": "diario/creo que un poco la cosa por la que me gusta tanto hacer códigos, porque….md",
       "titulo": "creo que un poco la cosa por la que me gusta tanto hacer códigos, porque…",
-      "fecha": "19 Aug 2025",
+      "fecha": "19/08/25",
+      "hora": "23:43",
+      "dia": "martes",
       "preview": "creo que un poco la cosa por la que me gusta tanto hacer códigos, porque me recuerda de alguna manera mucho a latin y griego En el sentido de que tú c",
       "media": null
     },
     {
       "archivo": "diario/honey.md",
       "titulo": "honey",
-      "fecha": "19 Aug 2025",
+      "fecha": "19/08/25",
+      "hora": "23:43",
+      "dia": "martes",
       "preview": "821",
       "media": null
     },
     {
       "archivo": "diario/es que chatgpt es como.md",
       "titulo": "es que chatgpt es como",
-      "fecha": "19 Aug 2025",
+      "fecha": "19/08/25",
+      "hora": "16:36",
+      "dia": "martes",
       "preview": "el internet ahi un poco informe que era solo materia y datos y que con nuestra energia activabamos es como si ubiesmeos avanzado al siguiente nivel en",
       "media": null
     },
     {
       "archivo": "diario/quiero que otro episodio de los que he tenido, así como de ira.md",
       "titulo": "quiero que otro episodio de los que he tenido, así como de ira",
-      "fecha": "17 Aug 2025",
+      "fecha": "17/08/25",
+      "hora": "12:46",
+      "dia": "domingo",
       "preview": "Recuerdo que fue cuando estaba en la habitación de la psicóloga del instituto ya estaba mi mejor amigo conmigo yo no sé qué pasó yo no sé qué dijo per",
       "media": null
     },
     {
       "archivo": "diario/Y ya luego que me demuestra lo de la frente universal, ha sido estos….md",
       "titulo": "Y ya luego que me demuestra lo de la frente universal, ha sido estos…",
-      "fecha": "16 Aug 2025",
+      "fecha": "16/08/25",
+      "hora": "16:20",
+      "dia": "sábado",
       "preview": "Y ya luego que me demuestra lo de la frente universal, ha sido estos meses de baja, que ya pronto casi serán un año y es que yo en estos meses de baja",
       "media": null
     },
     {
       "archivo": "diario/lo que me gustaría es poder cobrar un porcentaje justo a la gente.md",
       "titulo": "lo que me gustaría es poder cobrar un porcentaje justo a la gente",
-      "fecha": "16 Aug 2025",
+      "fecha": "16/08/25",
+      "hora": "13:38",
+      "dia": "sábado",
       "preview": "No sé cómo calcularlo, pero que mis webs no cuesten un precio en absoluto sin un precio relativo, que sea un porcentaje de lo que cobres tú al año y q",
       "media": null
     },
     {
       "archivo": "diario/Y tengo algunos recuerdos como cuando como que emocionalmente se me….md",
       "titulo": "Y tengo algunos recuerdos como cuando como que emocionalmente se me…",
-      "fecha": "15 Aug 2025",
+      "fecha": "15/08/25",
+      "hora": "13:35",
+      "dia": "viernes",
       "preview": "Y tengo algunos recuerdos como cuando como que emocionalmente se me va la olla en plan como que O conecto o no conecto, pero si conecto conecto demasi",
       "media": null
     },
     {
       "archivo": "diario/Nueva nota.md",
       "titulo": "Nueva nota",
-      "fecha": "14 Aug 2025",
+      "fecha": "14/08/25",
+      "hora": "22:49",
+      "dia": "jueves",
       "preview": "![7FACBE26-8546-46BA-81D3-ECE38CE7DFEA](images/7FACBE26-8546-46BA-81D3-ECE38CE7DFEA.png)",
       "media": "img"
     },
     {
       "archivo": "diario/la verdad es que me siento agotado en plan.md",
       "titulo": "la verdad es que me siento agotado en plan",
-      "fecha": "07 Aug 2025",
+      "fecha": "07/08/25",
+      "hora": "22:34",
+      "dia": "jueves",
       "preview": "agotado llevo dias sin despertarme descansado siempre agotado",
       "media": null
     },
     {
       "archivo": "diario/yung jung.md",
       "titulo": "yung jung",
-      "fecha": "03 Aug 2025",
+      "fecha": "03/08/25",
+      "hora": "15:02",
+      "dia": "domingo",
       "preview": "",
       "media": null
     },
     {
       "archivo": "diario/me rascaba el culo y me lo olía.md",
       "titulo": "me rascaba el culo y me lo olía",
-      "fecha": "03 Aug 2025",
+      "fecha": "03/08/25",
+      "hora": "14:30",
+      "dia": "domingo",
       "preview": "",
       "media": null
     },
     {
       "archivo": "diario/yo recuerdo llorar.md",
       "titulo": "yo recuerdo llorar",
-      "fecha": "02 Aug 2025",
+      "fecha": "02/08/25",
+      "hora": "12:26",
+      "dia": "sábado",
       "preview": "Y mi padre decirme que era un maleducado, un desagradecido que me pusiese ya sonreír para la puta foto mira yo he tenido pánico de las fotos y de hech",
       "media": null
     }
@@ -859,84 +1101,108 @@ export const categorias = {
     {
       "archivo": "doctorat/El título de un posible doctorado que me imagino haciendo de aquí….md",
       "titulo": "El título de un posible doctorado que me imagino haciendo de aquí…",
-      "fecha": "07 Oct 2025",
+      "fecha": "07/10/25",
+      "hora": "15:24",
+      "dia": "martes",
       "preview": "El título de un posible doctorado que me imagino haciendo de aquí a unos años iría un poco como mitología e historia La indiferencia entre mitología e",
       "media": null
     },
     {
       "archivo": "doctorat/estudios mitológicos.md",
       "titulo": "estudios mitológicos",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:46",
+      "dia": "sábado",
       "preview": "",
       "media": null
     },
     {
       "archivo": "doctorat/para mí un poco un resumen de lo que es mi tesis es.md",
       "titulo": "para mí un poco un resumen de lo que es mi tesis es",
-      "fecha": "24 Sep 2025",
+      "fecha": "24/09/25",
+      "hora": "18:41",
+      "dia": "miércoles",
       "preview": "De alguna manera u otra siempre estamos recayendo en mitologías para aceptar lo que es posible y lo que no Yo creo que esto se debe a que aceptar la p",
       "media": null
     },
     {
       "archivo": "doctorat/me gustaría escribir un libro que se llamase conectando los puntos.md",
       "titulo": "me gustaría escribir un libro que se llamase conectando los puntos",
-      "fecha": "06 Sep 2025",
+      "fecha": "06/09/25",
+      "hora": "15:34",
+      "dia": "sábado",
       "preview": "Porque simplemente hablaste de esto, no de tener los ojos abiertos y entender que cualquier narrativa historia mensaje idioma manera de forma No es az",
       "media": null
     },
     {
       "archivo": "doctorat/manifiesto por la esquizofrenia.md",
       "titulo": "manifiesto por la esquizofrenia",
-      "fecha": "21 Aug 2025",
+      "fecha": "21/08/25",
+      "hora": "20:07",
+      "dia": "jueves",
       "preview": "",
       "media": null
     },
     {
       "archivo": "doctorat/https---www-youtube-com-watch-v=UebSfjmQNvs.md",
       "titulo": "https://www.youtube.com/watch?v=UebSfjmQNvs",
-      "fecha": "11 Jun 2024",
+      "fecha": "11/06/24",
+      "hora": "20:05",
+      "dia": "martes",
       "preview": "# es que este video que es una fumada de porro",
       "media": null
     },
     {
       "archivo": "doctorat/al final es supercierrto que.md",
       "titulo": "al final es supercierrto que",
-      "fecha": "06 Jun 2024",
+      "fecha": "06/06/24",
+      "hora": "16:38",
+      "dia": "jueves",
       "preview": "la alquimia y todo loq ue el rodea habla en un tono que es precisamente lo que quiero investigar como no se si es un proceso real",
       "media": "video"
     },
     {
       "archivo": "doctorat/LIBROS QUE T EINTERESAN PERO SON CAROS.md",
       "titulo": "LIBROS QUE T EINTERESAN PERO SON CAROS",
-      "fecha": "22 Mar 2024",
+      "fecha": "22/03/24",
+      "hora": "15:20",
+      "dia": "viernes",
       "preview": "hermetica 1 [https://www.amazon.es/gp/product/1570626308/ref=ox_sc_act_title_4?smid=A1AT7YVPFBWXBL&psc=1](https://www.amazon.es/gp/product/1570626308/",
       "media": null
     },
     {
       "archivo": "doctorat/Nueva nota.md",
       "titulo": "Nueva nota",
-      "fecha": "20 Mar 2024",
+      "fecha": "20/03/24",
+      "hora": "21:29",
+      "dia": "miércoles",
       "preview": "![E3D7A0E1-61F7-4995-A432-1F08372DA583](images/E3D7A0E1-61F7-4995-A432-1F08372DA583.png)",
       "media": "img"
     },
     {
       "archivo": "doctorat/igual esta relacion entre la religion y la cuantica.md",
       "titulo": "igual esta relacion entre la religion y la cuantica",
-      "fecha": "18 Mar 2024",
+      "fecha": "18/03/24",
+      "hora": "08:09",
+      "dia": "lunes",
       "preview": "el gran apoiler: como la religion nos explica cosas que nunca gemos querido escuchar y que ahora con la cuantica cada vez quedan mas demostradas y aun",
       "media": null
     },
     {
       "archivo": "doctorat/puede una IA crear una reçigion- a partir de ML de mychas religiones….md",
       "titulo": "puede una IA crear una reçigion? a partir de ML de mychas religiones…",
-      "fecha": "18 Mar 2024",
+      "fecha": "18/03/24",
+      "hora": "08:08",
+      "dia": "lunes",
       "preview": "# puede una IA crear una reçigion? a partir de ML de mychas religiones ayomizadas? como conseguir destrozarla en sus atomos y alquimicamente genere nu",
       "media": null
     },
     {
       "archivo": "doctorat/master en mitologia.md",
       "titulo": "master en mitologia",
-      "fecha": "05 Oct 2023",
+      "fecha": "05/10/23",
+      "hora": "21:20",
+      "dia": "jueves",
       "preview": "[https://www.blanquerna.edu/es/diploma-de-especializacion-universitaria-en-mitologia-y-simbologia#becas-y-ayudas](https://www.blanquerna.edu/es/diplom",
       "media": "img"
     }
@@ -945,70 +1211,90 @@ export const categorias = {
     {
       "archivo": "historias/y sanaba con su daga.md",
       "titulo": "y sanaba con su daga",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "20:57",
+      "dia": "domingo",
       "preview": "al morir todos perdemos una energía él la usaba para restaurar todo al estado original anclado al tiempo de aquel momento",
       "media": null
     },
     {
       "archivo": "historias/la goma y el lápiz.md",
       "titulo": "la goma y el lápiz",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "12:47",
+      "dia": "jueves",
       "preview": "y la época del bolígrafo",
       "media": null
     },
     {
       "archivo": "historias/cio de oficinas, pero luego miras.md",
       "titulo": "cio de oficinas, pero luego miras",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "12:15",
+      "dia": "jueves",
       "preview": "![E84B1FA4-83C4-4713-9C25-877E01C96860](images/E84B1FA4-83C4-4713-9C25-877E01C96860.jpeg) puerta de entrada a la muerte en jn edificio abandonado que ",
       "media": "img"
     },
     {
       "archivo": "historias/Y por eso el que informe de la autopsia lo hace en voz alta, porque….md",
       "titulo": "Y por eso el que informe de la autopsia lo hace en voz alta, porque…",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "11:41",
+      "dia": "jueves",
       "preview": "Y por eso el que informe de la autopsia lo hace en voz alta, porque realmente lo que está haciendo es un ritual mágico y por eso siempre hay grabacion",
       "media": null
     },
     {
       "archivo": "historias/pues no se calienta el agua y sube cuando le da mucho el sol.md",
       "titulo": "pues no se calienta el agua y sube cuando le da mucho el sol",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "18:07",
+      "dia": "domingo",
       "preview": "Y cuando el agua sube de repente pesa, sabes como que sube tanto tiene tanto yan que de repente se vuelve yin y cae La manera que tenemos de alinearno",
       "media": null
     },
     {
       "archivo": "historias/Y me hace sonreír en especial cuando veo que por ejemplo en el billar….md",
       "titulo": "Y me hace sonreír en especial cuando veo que por ejemplo en el billar…",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "14:03",
+      "dia": "domingo",
       "preview": "Y me hace sonreír en especial cuando veo que por ejemplo en el billar se ve esto no como al final hay siete bolas de cada lado que todas convergen en ",
       "media": null
     },
     {
       "archivo": "historias/y el gusano del siempre era un insecto muy peculiar pues si te fijabas….md",
       "titulo": "y el gusano del siempre era un insecto muy peculiar pues si te fijabas…",
-      "fecha": "05 Oct 2025",
+      "fecha": "05/10/25",
+      "hora": "13:44",
+      "dia": "domingo",
       "preview": "# y el gusano del siempre era un insecto muy peculiar pues si te fijabas solo comia del producto lacteo que generaba al cambiar de forma sw procesaba ",
       "media": null
     },
     {
       "archivo": "historias/y por eso nuestro símbolo es la hoja de otoño.md",
       "titulo": "y por eso nuestro símbolo es la hoja de otoño",
-      "fecha": "05 Sep 2025",
+      "fecha": "05/09/25",
+      "hora": "19:13",
+      "dia": "viernes",
       "preview": "porque pra que haya fuego tiene que haber algo que arda y nada arde mejor que las hojas secas del verano que la tierra descanse que la tierra descanse",
       "media": null
     },
     {
       "archivo": "historias/todos los días.md",
       "titulo": "todos los días",
-      "fecha": "26 Aug 2025",
+      "fecha": "26/08/25",
+      "hora": "09:15",
+      "dia": "martes",
       "preview": "a una hora indeteminada él tiraba un petardo por el patio de voces",
       "media": null
     },
     {
       "archivo": "historias/y la lluvia protege a los ladrones.md",
       "titulo": "y la lluvia protege a los ladrones",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "09:38",
+      "dia": "lunes",
       "preview": "porque en ella desaparecen",
       "media": null
     }
@@ -1017,91 +1303,117 @@ export const categorias = {
     {
       "archivo": "ideas/hacer un conversor de unidades verdaderamente universal.md",
       "titulo": "hacer un conversor de unidades verdaderamente universal",
-      "fecha": "03 Mar 2026",
+      "fecha": "03/03/26",
+      "hora": "11:09",
+      "dia": "martes",
       "preview": "como convertir pulgadas en tamaño de pantalla y que mas cosas? que sea un poco gadget",
       "media": null
     },
     {
       "archivo": "ideas/vusualizador de yinyan como vortice.md",
       "titulo": "vusualizador de yinyan como vortice",
-      "fecha": "22 Feb 2026",
+      "fecha": "22/02/26",
+      "hora": "21:48",
+      "dia": "domingo",
       "preview": "",
       "media": null
     },
     {
       "archivo": "ideas/gastar creditos de manu en una qeb que sea una baraja de cartas españolas.md",
       "titulo": "gastar creditos de manu en una qeb que sea una baraja de cartas españolas",
-      "fecha": "22 Feb 2026",
+      "fecha": "22/02/26",
+      "hora": "20:05",
+      "dia": "domingo",
       "preview": "y te deje jugar al chinchon y si quieres jugar al jno te convierte las cartas segun se hace cuando se juega al uno con la baraja española pero que se ",
       "media": "img"
     },
     {
       "archivo": "ideas/concede deseos a cambio de agua.md",
       "titulo": "concede deseos a cambio de agua",
-      "fecha": "22 Feb 2026",
+      "fecha": "22/02/26",
+      "hora": "18:11",
+      "dia": "domingo",
       "preview": "# concede deseos a cambio de agua dame agua que quiero cantar",
       "media": null
     },
     {
       "archivo": "ideas/escena RPG Maker, el puerto.md",
       "titulo": "escena RPG Maker, el puerto",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "13:00",
+      "dia": "domingo",
       "preview": "Un diálogo entre dos niños que dicen en el parque de la iglesia El que esté libre de pecado que tiene la primera piedra Y el otro le contesté va empie",
       "media": null
     },
     {
       "archivo": "ideas/folarcos.md",
       "titulo": "folarcos",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "11:14",
+      "dia": "domingo",
       "preview": "nomvre musical??? para manu??? ![A57915CE-D4E1-4840-BAD4-ECA33212F060](images/A57915CE-D4E1-4840-BAD4-ECA33212F060.jpeg)",
       "media": "img"
     },
     {
       "archivo": "ideas/pop secreto es muy buen nombre para mi primer album.md",
       "titulo": "pop secreto es muy buen nombre para mi primer album",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "09:34",
+      "dia": "jueves",
       "preview": "",
       "media": null
     },
     {
       "archivo": "ideas/escribirle a bendita gloria.md",
       "titulo": "escribirle a bendita gloria",
-      "fecha": "23 Dec 2025",
+      "fecha": "23/12/25",
+      "hora": "20:58",
+      "dia": "martes",
       "preview": "(soy chixo massana y vi el rebranding y ahora estoy empezando a hacer webs y pense en vosotros, queria enseñaros lo que hacia :))",
       "media": null
     },
     {
       "archivo": "ideas/igual tengo que enviar lo último a editoriales.md",
       "titulo": "igual tengo que enviar lo último a editoriales",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "14:05",
+      "dia": "domingo",
       "preview": "esperemos que este no sea al final de Notas pero igual sí, que esta es la última nota de notas cinco creo que puede ser un gran cierre de época además",
       "media": null
     },
     {
       "archivo": "ideas/cornucopia.md",
       "titulo": "cornucopia",
-      "fecha": "11 May 2025",
+      "fecha": "11/05/25",
+      "hora": "15:01",
+      "dia": "domingo",
       "preview": "el reino de la cantidad",
       "media": null
     },
     {
       "archivo": "ideas/una app pra un moodcheck.md",
       "titulo": "una app pra un moodcheck",
-      "fecha": "09 May 2025",
+      "fecha": "09/05/25",
+      "hora": "11:53",
+      "dia": "viernes",
       "preview": "que puedas poner participantes y evento y hora y digas quien eres y digas como estas de quedar del 0-10 y un comentario y puedas enviarlo a otra perso",
       "media": null
     },
     {
       "archivo": "ideas/powsia extraordinaria.md",
       "titulo": "powsia extraordinaria",
-      "fecha": "30 Apr 2025",
+      "fecha": "30/04/25",
+      "hora": "22:46",
+      "dia": "miércoles",
       "preview": "asi se podria llamar mi poesia que nace de mi inquietudes y sentires tras haber conectado con la unidad del todo y ver que la gente bo se sorprenda qu",
       "media": null
     },
     {
       "archivo": "ideas/programar videojuegos surrealistas.md",
       "titulo": "programar videojuegos surrealistas",
-      "fecha": "06 Apr 2025",
+      "fecha": "06/04/25",
+      "hora": "18:38",
+      "dia": "domingo",
       "preview": "y luego narrarlos narrar las torras manel",
       "media": null
     }
@@ -1110,21 +1422,27 @@ export const categorias = {
     {
       "archivo": "main/10 canciones para diego.md",
       "titulo": "10 canciones para diego",
-      "fecha": "23 Feb 2026",
+      "fecha": "23/02/26",
+      "hora": "13:39",
+      "dia": "lunes",
       "preview": "VALE la canción que mÁs me gusta creo que es esta ahora mismo me parece una locura pero no sabría ni por donde empezar asi que la dejo aqui y luego pa",
       "media": "img"
     },
     {
       "archivo": "main/la manera de alinearnos frente a la obviedad.md",
       "titulo": "la manera de alinearnos frente a la obviedad",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "14:05",
+      "dia": "domingo",
       "preview": "",
       "media": null
     },
     {
       "archivo": "main/manifiesto.md",
       "titulo": "manifiesto",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "13:57",
+      "dia": "domingo",
       "preview": "Cómo que de alguna manera no sé dónde enviar estos textos igual lo que manifiesto es que en este 2026 lleguen a algún lugar que les puedan dar la difu",
       "media": null
     }
@@ -1133,21 +1451,27 @@ export const categorias = {
     {
       "archivo": "misc/Tiene todo el sentido lo que dices, y de hecho es una posición bastante….md",
       "titulo": "Tiene todo el sentido lo que dices, y de hecho es una posición bastante…",
-      "fecha": "03 Mar 2026",
+      "fecha": "03/03/26",
+      "hora": "10:48",
+      "dia": "martes",
       "preview": "Tiene todo el sentido lo que dices, y de hecho es una posición bastante inteligente. Tu enfoque de HTML/CSS/JS vanilla sin frameworks tiene una ventaj",
       "media": null
     },
     {
       "archivo": "misc/reimpresion mil y una noches.md",
       "titulo": "reimpresion mil y una noches",
-      "fecha": "02 May 2025",
+      "fecha": "02/05/25",
+      "hora": "23:07",
+      "dia": "viernes",
       "preview": "me encantaria leer las mil y uja nocyed y me encantaria leer la vuestra, soy un gran fan de todo lo que publicais sabeis si se hara una teimpresion i ",
       "media": null
     },
     {
       "archivo": "misc/stems oklou.md",
       "titulo": "stems oklou",
-      "fecha": "02 May 2025",
+      "fecha": "02/05/25",
+      "hora": "14:16",
+      "dia": "viernes",
       "preview": "[https://www.instagram.com/p/DJJiB6WtrLZ/?igsh=ZDhkYmMxZ2I1eWk0](https://www.instagram.com/p/DJJiB6WtrLZ/?igsh=ZDhkYmMxZ2I1eWk0)",
       "media": null
     }
@@ -1156,56 +1480,72 @@ export const categorias = {
     {
       "archivo": "somos normales/somos normales-1.md",
       "titulo": "somos normales",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "18:24",
+      "dia": "sábado",
       "preview": "![6AB95A20-5504-498D-ABC6-175BCFC786ED](images/6AB95A20-5504-498D-ABC6-175BCFC786ED.png) también todo esto me hace pensar un poco en que efectivamente",
       "media": "img"
     },
     {
       "archivo": "somos normales/GUION 1- follar y los maricones-.md",
       "titulo": "GUION 1: follar y los maricones:",
-      "fecha": "01 Oct 2025",
+      "fecha": "01/10/25",
+      "hora": "13:57",
+      "dia": "miércoles",
       "preview": "~~historias divertidas: crush con el cayetano de tecnologia del instituto: las miradas el follar como objetivo último de las relaciones interprersonal",
       "media": null
     },
     {
       "archivo": "somos normales/porque claro, yo ahora digo buah em.md",
       "titulo": "porque claro, yo ahora digo buah em",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "16:44",
+      "dia": "martes",
       "preview": "Y si usa lo que he escrito como guion para mañana para el piloto Pero no tiene sentido porque entonces ya está el hilo construido o sea que puede ser ",
       "media": null
     },
     {
       "archivo": "somos normales/me cuesta un poco como entrar, como que sabes que no me apetece hacer….md",
       "titulo": "me cuesta un poco como entrar, como que sabes que no me apetece hacer…",
-      "fecha": "23 Sep 2025",
+      "fecha": "23/09/25",
+      "hora": "16:12",
+      "dia": "martes",
       "preview": "me cuesta un poco como entrar, como que sabes que no me apetece hacer nunca y quiero que se divertido hacer guion Y el otro día o sea el otro día no p",
       "media": "video"
     },
     {
       "archivo": "somos normales/la cultura de la cabcelacion.md",
       "titulo": "la cultura de la cabcelacion",
-      "fecha": "21 Sep 2025",
+      "fecha": "21/09/25",
+      "hora": "16:13",
+      "dia": "domingo",
       "preview": "la cultura de los influencers lo que ha de influir y lo que ha de dejar de influir #somosnormales",
       "media": null
     },
     {
       "archivo": "somos normales/el tema e lo intersex.md",
       "titulo": "el tema e lo intersex",
-      "fecha": "21 Sep 2025",
+      "fecha": "21/09/25",
+      "hora": "13:39",
+      "dia": "domingo",
       "preview": "la anecdota de mi jefa con el hombre perfecto con micropenes #somosnormales",
       "media": null
     },
     {
       "archivo": "somos normales/SOMOS NORMALES.md",
       "titulo": "SOMOS NORMALES",
-      "fecha": "16 Sep 2025",
+      "fecha": "16/09/25",
+      "hora": "19:22",
+      "dia": "martes",
       "preview": "agradecimiento a mis referetes que steven universe sea mi mitologia y que no sea otra pero que en realidad el todo es omnipresente tosdas las hisrtori",
       "media": null
     },
     {
       "archivo": "somos normales/turismo en la edad media.md",
       "titulo": "turismo en la edad media",
-      "fecha": "12 Sep 2025",
+      "fecha": "12/09/25",
+      "hora": "19:22",
+      "dia": "viernes",
       "preview": "el templo de la identifad (rrss) t el peregrinaje para ser una persina culta a partir de la eyimologia de turismo //el video de putomikel relacionarlo",
       "media": null
     }
@@ -1214,140 +1554,180 @@ export const categorias = {
     {
       "archivo": "sueños/sueño-1.md",
       "titulo": "sueño",
-      "fecha": "29 Dec 2025",
+      "fecha": "29/12/25",
+      "hora": "05:35",
+      "dia": "lunes",
       "preview": "estaba en algun lugar donde habia un maña habia una piscina y por algun motivo teniamoa que ir de un sitil q otro en el mapa a traves de los conductos",
       "media": null
     },
     {
       "archivo": "sueños/Y recuerdo que hoy soñé.md",
       "titulo": "Y recuerdo que hoy soñé",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "12:57",
+      "dia": "jueves",
       "preview": "",
       "media": null
     },
     {
       "archivo": "sueños/siñe que-1.md",
       "titulo": "siñe que",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "05:20",
+      "dia": "jueves",
       "preview": "iba a por dinero al bbva con una gang de 3 persnas mqs? era para alguien d eesos 3 wl rwsto ibamos a esperar y ya y",
       "media": null
     },
     {
       "archivo": "sueños/sueño.md",
       "titulo": "sueño",
-      "fecha": "25 Sep 2025",
+      "fecha": "25/09/25",
+      "hora": "10:08",
+      "dia": "jueves",
       "preview": "hace  mucho que no sueño tuve una pesadilla de que estaba sen singapur y n o podia volver no se porque iba pero no podía volver y creo que queria volv",
       "media": null
     },
     {
       "archivo": "sueños/soñw que.md",
       "titulo": "soñw que",
-      "fecha": "06 Sep 2025",
+      "fecha": "06/09/25",
+      "hora": "08:38",
+      "dia": "sábado",
       "preview": "estaba en una expo ina cln qlguien y no paraba de encinteqrme rojes y me los iba huardando oarq sllevqrlos a ovketos peridos",
       "media": null
     },
     {
       "archivo": "sueños/soñe que-1.md",
       "titulo": "soñe que",
-      "fecha": "05 Sep 2025",
+      "fecha": "05/09/25",
+      "hora": "07:44",
+      "dia": "viernes",
       "preview": "mw wnconrraba xon un. uño que tambien tenia una estrella de 8 puntas tatuada en el pecho",
       "media": null
     },
     {
       "archivo": "sueños/he soñado que-3.md",
       "titulo": "he soñado que",
-      "fecha": "02 Sep 2025",
+      "fecha": "02/09/25",
+      "hora": "06:22",
+      "dia": "martes",
       "preview": "estaba aun en cariz y habian cosas que no tenian sentido como algo mas y",
       "media": null
     },
     {
       "archivo": "sueños/siñe que.md",
       "titulo": "siñe que",
-      "fecha": "28 Aug 2025",
+      "fecha": "28/08/25",
+      "hora": "03:31",
+      "dia": "jueves",
       "preview": "estaba jugando a un videojuego bastante parecido a slime rancher a nivle grafico ibas teniendo que wscanwar o asi como una paloma y un arbol y algo ma",
       "media": null
     },
     {
       "archivo": "sueños/hoy soñe que.md",
       "titulo": "hoy soñe que",
-      "fecha": "27 Aug 2025",
+      "fecha": "27/08/25",
+      "hora": "14:29",
+      "dia": "miércoles",
       "preview": "berta se estaba comiendo estas patatas peladas y cortadas que deje en remojo en su balda ![91976A6B-91B0-4244-BDAD-5383DF9F52FF](images/91976A6B-91B0-",
       "media": "img"
     },
     {
       "archivo": "sueños/soñe que.md",
       "titulo": "soñe que",
-      "fecha": "26 Aug 2025",
+      "fecha": "26/08/25",
+      "hora": "06:56",
+      "dia": "martes",
       "preview": "ne arreglaban el ordenador y tenka que estar fuera de casa. yo vivia con mi madre y no podia dormir en casa porque no habia camas y le pedia ayuda a a",
       "media": null
     },
     {
       "archivo": "sueños/esraba viviendoe n casa de mi abuela.md",
       "titulo": "esraba viviendoe n casa de mi abuela",
-      "fecha": "25 Aug 2025",
+      "fecha": "25/08/25",
+      "hora": "05:30",
+      "dia": "lunes",
       "preview": "y me uba a algun sitio yendo para casa me encontraba con katia y me decia que no podia vernos kuntos y era porque habia quedado ella con gonzalo y pas",
       "media": null
     },
     {
       "archivo": "sueños/he siñado que.md",
       "titulo": "he siñado que",
-      "fecha": "21 Aug 2025",
+      "fecha": "21/08/25",
+      "hora": "07:22",
+      "dia": "jueves",
       "preview": "he siñado que estaba en cadi en la uni en la biblioteca y tenia un amgi en wl oji",
       "media": null
     },
     {
       "archivo": "sueños/he soñado-3.md",
       "titulo": "he soñado",
-      "fecha": "19 Aug 2025",
+      "fecha": "19/08/25",
+      "hora": "08:53",
+      "dia": "martes",
       "preview": "he soñado algo de como una carrera en coche y como que había un túnel y pasaba y luego al pasar ese túnel había como una pradera en plan con un camino",
       "media": null
     },
     {
       "archivo": "sueños/he soñado-2.md",
       "titulo": "he soñado",
-      "fecha": "16 Aug 2025",
+      "fecha": "16/08/25",
+      "hora": "06:59",
+      "dia": "sábado",
       "preview": "Que estábamos como haciendo turismo en París, y que preguntaba si tenía que tener cuidado por algún sitio y me decían que en el barrio del castigliers",
       "media": null
     },
     {
       "archivo": "sueños/he soñado que-2.md",
       "titulo": "he soñado que",
-      "fecha": "11 Aug 2025",
+      "fecha": "11/08/25",
+      "hora": "08:07",
+      "dia": "lunes",
       "preview": "a alguien usaba un ascensor y me uba a hacerme un bubble tea",
       "media": null
     },
     {
       "archivo": "sueños/y aye rsoñe que.md",
       "titulo": "y aye rsoñe que",
-      "fecha": "10 Aug 2025",
+      "fecha": "10/08/25",
+      "hora": "11:17",
+      "dia": "domingo",
       "preview": "maria jesus un campo y dj fra algo pasaba en todo eso",
       "media": null
     },
     {
       "archivo": "sueños/he soñado que-1.md",
       "titulo": "he soñado que",
-      "fecha": "10 Aug 2025",
+      "fecha": "10/08/25",
+      "hora": "11:16",
+      "dia": "domingo",
       "preview": "un chico guapisimo manos grandes cara ancha se enamoraba de mi me pedia wl twlefono en el piso demi abuela y me daba like a todos los stories destacad",
       "media": null
     },
     {
       "archivo": "sueños/he soñado que.md",
       "titulo": "he soñado que",
-      "fecha": "08 Aug 2025",
+      "fecha": "08/08/25",
+      "hora": "09:27",
+      "dia": "viernes",
       "preview": "Creo que estábamos en clase y nos metían a todos en un barco y nos pondrán a navegar por ahí no sé un barco como bastante grande y creo que era para i",
       "media": null
     },
     {
       "archivo": "sueños/he soñado-1.md",
       "titulo": "he soñado",
-      "fecha": "07 Aug 2025",
+      "fecha": "07/08/25",
+      "hora": "08:19",
+      "dia": "jueves",
       "preview": "que le decia a mi tia que no queria a minpadre estabamos entee su casanu lq de ni abuela en fariz como a ratos ej una a ratos en otra era comonla mism",
       "media": null
     },
     {
       "archivo": "sueños/he soñado.md",
       "titulo": "he soñado",
-      "fecha": "02 Aug 2025",
+      "fecha": "02/08/25",
+      "hora": "10:35",
+      "dia": "sábado",
       "preview": "Que estamos en un restaurante, así como rollo McDonalds Llevamos un grupo grande no recuerdo muy bien que había comida pero como que estaban cerrando ",
       "media": null
     }
@@ -1356,322 +1736,414 @@ export const categorias = {
     {
       "archivo": "thincc/https---www-youtube-com-watch-v=kPQEVyMBpOc.md",
       "titulo": "https://www.youtube.com/watch?v=kPQEVyMBpOc",
-      "fecha": "04 Mar 2026",
+      "fecha": "04/03/26",
+      "hora": "09:01",
+      "dia": "miércoles",
       "preview": "# y si este video sta tomado en el super kamiokande [https://www.youtube.com/watch?v=B3m3AMRlYfc](https://www.youtube.com/watch?v=B3m3AMRlYfc)",
       "media": null
     },
     {
       "archivo": "thincc/Y una renta básica universal también permite.md",
       "titulo": "Y una renta básica universal también permite",
-      "fecha": "27 Feb 2026",
+      "fecha": "27/02/26",
+      "hora": "22:42",
+      "dia": "viernes",
       "preview": "O garantiza que la superioridad nunca se use para hacer una mirada a otro sitio cuando todos sabemos donde hay que estar mirando La gente cuyo trabajo",
       "media": null
     },
     {
       "archivo": "thincc/pero la cosa es que han conseguido que deje ese aparente porque es….md",
       "titulo": "pero la cosa es que han conseguido que deje ese aparente porque es…",
-      "fecha": "24 Feb 2026",
+      "fecha": "24/02/26",
+      "hora": "12:58",
+      "dia": "martes",
       "preview": "pero la cosa es que han conseguido que deje ese aparente porque es muy evidente o sea cada vez más la gente está aislada en sus casas Cada vez más, la",
       "media": null
     },
     {
       "archivo": "thincc/Y tampoco tiene sentido el tema de la compraventa de vivienda ni el….md",
       "titulo": "Y tampoco tiene sentido el tema de la compraventa de vivienda ni el…",
-      "fecha": "24 Feb 2026",
+      "fecha": "24/02/26",
+      "hora": "12:54",
+      "dia": "martes",
       "preview": "Y tampoco tiene sentido el tema de la compraventa de vivienda ni el sistema inmobiliario Porque os pongo un ejemplo muy sencillo imagínate que estás e",
       "media": null
     },
     {
       "archivo": "thincc/realmente del 0 al 1.md",
       "titulo": "realmente del 0 al 1",
-      "fecha": "01 Jan 2026",
+      "fecha": "01/01/26",
+      "hora": "16:06",
+      "dia": "jueves",
       "preview": "hay tanto como del 1 al 2, no? por eso en el 1ching el yan es 1, es indiscutible pero el yin es tanto 0 como 2, es esa la cuestión",
       "media": null
     },
     {
       "archivo": "thincc/y si los 5 espiritus naturales son los arquetipos basicos.md",
       "titulo": "y si los 5 espiritus naturales son los arquetipos basicos",
-      "fecha": "01 Jan 2026",
+      "fecha": "01/01/26",
+      "hora": "12:38",
+      "dia": "jueves",
       "preview": "el principio de madera del crecimiento el principio de metal de la inertidad el principio de agua que yace",
       "media": null
     },
     {
       "archivo": "thincc/lo trans y lo incel.md",
       "titulo": "lo trans y lo incel",
-      "fecha": "31 Dec 2025",
+      "fecha": "31/12/25",
+      "hora": "18:24",
+      "dia": "miércoles",
       "preview": "son al final dos maneras de rebelarse ante lo social antes dwl feminismo no existian los incels, t em coxepto de hombre baboso o violento con su mujer",
       "media": null
     },
     {
       "archivo": "thincc/lo metido que está en nosotros el cristianismo.md",
       "titulo": "lo metido que está en nosotros el cristianismo",
-      "fecha": "30 Dec 2025",
+      "fecha": "30/12/25",
+      "hora": "00:11",
+      "dia": "martes",
       "preview": "Y lo vacuo que es eso",
       "media": null
     },
     {
       "archivo": "thincc/no es irónico que.md",
       "titulo": "no es irónico que",
-      "fecha": "28 Dec 2025",
+      "fecha": "28/12/25",
+      "hora": "16:01",
+      "dia": "domingo",
       "preview": "creamos que dé igual creer o no porque no hay más que un vacío y que es precisamente en ese v acío en el que el significado emana por eso has de estar",
       "media": null
     },
     {
       "archivo": "thincc/y quiza de eso van las guerras.md",
       "titulo": "y quiza de eso van las guerras",
-      "fecha": "27 Dec 2025",
+      "fecha": "27/12/25",
+      "hora": "23:28",
+      "dia": "sábado",
       "preview": "de que los opuestos se aniquilen y porque creemos en ellas tenemos una ciencia que nos dice qje en el origen de todo, la materia \"buena\" sobrevivió po",
       "media": null
     },
     {
       "archivo": "thincc/el no lugar contra el espacio fronterizo.md",
       "titulo": "el no lugar contra el espacio fronterizo",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "15:33",
+      "dia": "jueves",
       "preview": "El espacio fronterizo siempre es una zona frontera, no la frontera son chulas porque nos permiten como estar en el límite y desde el límite puedes ver",
       "media": null
     },
     {
       "archivo": "thincc/Y ser muy críticos con lo que supone una jornada de 40 horas que es….md",
       "titulo": "Y ser muy críticos con lo que supone una jornada de 40 horas que es…",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "11:59",
+      "dia": "jueves",
       "preview": "Y ser muy críticos con lo que supone una jornada de 40 horas que es prácticamente esclavitud es que en un antes siempre por favor un antes mitológico ",
       "media": null
     },
     {
       "archivo": "thincc/Y porque lo siento, pero no no discriminamos a los hombres gays discriminamos….md",
       "titulo": "Y porque lo siento, pero no no discriminamos a los hombres gays discriminamos…",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "11:17",
+      "dia": "jueves",
       "preview": "Y porque lo siento, pero no no discriminamos a los hombres gays discriminamos a los maricones discriminemos a las travestis discriminamos a las person",
       "media": null
     },
     {
       "archivo": "thincc/también imagino que el lenguaje es como algo que no separa mucho de….md",
       "titulo": "también imagino que el lenguaje es como algo que no separa mucho de…",
-      "fecha": "25 Dec 2025",
+      "fecha": "25/12/25",
+      "hora": "09:41",
+      "dia": "jueves",
       "preview": "también imagino que el lenguaje es como algo que no separa mucho de de lo que es no y me me fijo mucho por ejemplo en las gatas con las que convivo En",
       "media": null
     },
     {
       "archivo": "thincc/Y algo que ya no sé si es intuición creo que no, pero es una coincidencia….md",
       "titulo": "Y algo que ya no sé si es intuición creo que no, pero es una coincidencia…",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "14:17",
+      "dia": "domingo",
       "preview": "Y algo que ya no sé si es intuición creo que no, pero es una coincidencia que veo que me parece muy interesante y es como hoy en día parece Que es la ",
       "media": "img"
     },
     {
       "archivo": "thincc/Y todo viene por el dejar de decir mentiras porque claro como que….md",
       "titulo": "Y todo viene por el dejar de decir mentiras porque claro como que…",
-      "fecha": "21 Dec 2025",
+      "fecha": "21/12/25",
+      "hora": "13:52",
+      "dia": "domingo",
       "preview": "Y todo viene por el dejar de decir mentiras porque claro como que digo buah he quedado con estas amigas pero me da palo moverlo y si lo movemos a un m",
       "media": null
     },
     {
       "archivo": "thincc/Al final si dios es uno.md",
       "titulo": "Al final si dios es uno",
-      "fecha": "07 Oct 2025",
+      "fecha": "07/10/25",
+      "hora": "15:47",
+      "dia": "martes",
       "preview": "Al final si dios es uno todo es uno Entre cero, y el uno hay infinitos números y todos ellos son cero, algo",
       "media": null
     },
     {
       "archivo": "thincc/yo siempre he pensado en los procesos de curación mental como un proceso….md",
       "titulo": "yo siempre he pensado en los procesos de curación mental como un proceso…",
-      "fecha": "06 Oct 2025",
+      "fecha": "06/10/25",
+      "hora": "15:18",
+      "dia": "lunes",
       "preview": "yo siempre he pensado en los procesos de curación mental como un proceso en cinco puntos más o menos de cualquier cosa que ya haya superado que estés ",
       "media": null
     },
     {
       "archivo": "thincc/algo bonito muchas veces cuando te gusta el ocultismo, y si te gusta….md",
       "titulo": "algo bonito muchas veces cuando te gusta el ocultismo, y si te gusta…",
-      "fecha": "06 Oct 2025",
+      "fecha": "06/10/25",
+      "hora": "15:15",
+      "dia": "lunes",
       "preview": "algo bonito muchas veces cuando te gusta el ocultismo, y si te gusta también la etimología de en general las cosas Es meterte en un rabbit hole de est",
       "media": null
     },
     {
       "archivo": "thincc/el valor de algo se mide por la cantidad de dinero que vale.md",
       "titulo": "el valor de algo se mide por la cantidad de dinero que vale",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "15:56",
+      "dia": "sábado",
       "preview": "pero el dinero en si no vale nada solo como interfaz de trueque universal",
       "media": null
     },
     {
       "archivo": "thincc/pra mi el amor es.md",
       "titulo": "pra mi el amor es",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "01:04",
+      "dia": "sábado",
       "preview": "escuchar lo que tienes que jacer y ser sincero con ello y ya y en algunas personas nacen cunas cosas connotras otras y puedes decidir seguir o investi",
       "media": null
     },
     {
       "archivo": "thincc/y yo en ningún momento dudo de que sé lo que veo a mí la mirada es….md",
       "titulo": "y yo en ningún momento dudo de que sé lo que veo a mí la mirada es…",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:17",
+      "dia": "sábado",
       "preview": "# y yo en ningún momento dudo de que sé lo que veo a mí la mirada es algo que no me falla ni siquiera las drogas me hacen ver cosas raras y yo recuerd",
       "media": null
     },
     {
       "archivo": "thincc/cuando toni plebe em dijo que claro que ella amaba cosas torcidisimas….md",
       "titulo": "cuando toni plebe em dijo que claro que ella amaba cosas torcidisimas…",
-      "fecha": "04 Oct 2025",
+      "fecha": "04/10/25",
+      "hora": "00:11",
+      "dia": "sábado",
       "preview": "# cuando toni plebe em dijo que claro que ella amaba cosas torcidisimas en el sexo porque era su unica manera de poder lidiar con lo que una infancia ",
       "media": null
     },
     {
       "archivo": "thincc/nuestro mito abrahamico del momento.md",
       "titulo": "nuestro mito abrahamico del momento",
-      "fecha": "01 Oct 2025",
+      "fecha": "01/10/25",
+      "hora": "17:26",
+      "dia": "miércoles",
       "preview": "nuestro mito abrahamico del momento es que solo somos particulas inertes y suerte",
       "media": null
     },
     {
       "archivo": "thincc/Al final las webs son templos.md",
       "titulo": "Al final las webs son templos",
-      "fecha": "01 Oct 2025",
+      "fecha": "01/10/25",
+      "hora": "11:45",
+      "dia": "miércoles",
       "preview": "Cuando antes hacías un templo Afrodita en el templo ponías una imagen de Afrodita. Contaba sus mitos en plan estaban por todas partes no estaban como ",
       "media": null
     },
     {
       "archivo": "thincc/cada persona tiene acceso a l verdad de manera parcial.md",
       "titulo": "cada persona tiene acceso a l verdad de manera parcial",
-      "fecha": "30 Sep 2025",
+      "fecha": "30/09/25",
+      "hora": "00:37",
+      "dia": "martes",
       "preview": "y que eso esta chulo porque todos somos uno y no se nos ha de olvidar",
       "media": null
     },
     {
       "archivo": "thincc/yo es que en realidad soy muy creyente, yo creo en la verdad.md",
       "titulo": "yo es que en realidad soy muy creyente, yo creo en la verdad",
-      "fecha": "27 Sep 2025",
+      "fecha": "27/09/25",
+      "hora": "19:43",
+      "dia": "sábado",
       "preview": "La verdad única, y a la que todo viene, que es que todo es uno De aquí puedes deducir más cosas y lo puedes destilar muy fino. Al final te puede queda",
       "media": null
     },
     {
       "archivo": "thincc/Y por último, las mitologías, sé que a mí me parece muy interesante….md",
       "titulo": "Y por último, las mitologías, sé que a mí me parece muy interesante…",
-      "fecha": "25 Sep 2025",
+      "fecha": "25/09/25",
+      "hora": "20:37",
+      "dia": "jueves",
       "preview": "Y por último, las mitologías, sé que a mí me parece muy interesante como por ejemplo en el rénder de Trump Gaza era verano Y siempre que vemos imágene",
       "media": null
     },
     {
       "archivo": "thincc/Y yo no sé si las denuncias falsas existen o no a mí lo que me parece….md",
       "titulo": "Y yo no sé si las denuncias falsas existen o no a mí lo que me parece…",
-      "fecha": "25 Sep 2025",
+      "fecha": "25/09/25",
+      "hora": "20:29",
+      "dia": "jueves",
       "preview": "Y yo no sé si las denuncias falsas existen o no a mí lo que me parece grave es que se nos dé más fácil imaginar a una mujer inventándose una historia ",
       "media": null
     },
     {
       "archivo": "thincc/Y a mí, algo bastante que pienso es que cuando pasó todo lo de Herrejón….md",
       "titulo": "Y a mí, algo bastante que pienso es que cuando pasó todo lo de Herrejón…",
-      "fecha": "25 Sep 2025",
+      "fecha": "25/09/25",
+      "hora": "20:17",
+      "dia": "jueves",
       "preview": "Y a mí, algo bastante que pienso es que cuando pasó todo lo de Herrejón, había como un Subdebate muy interesante que estaba pasando que era Qué era lo",
       "media": null
     },
     {
       "archivo": "thincc/vivimos en una sociedad de depredadores.md",
       "titulo": "vivimos en una sociedad de depredadores",
-      "fecha": "24 Sep 2025",
+      "fecha": "24/09/25",
+      "hora": "20:24",
+      "dia": "miércoles",
       "preview": "Y el proceso de convertirse en adulto es convertirse en un depredador es dejar de hacer caso a lo que ves dejar de hacer caso a lo que sientes dejar d",
       "media": null
     },
     {
       "archivo": "thincc/yo no le voy a decir a un maricón de Barakaldo, que se quede en su….md",
       "titulo": "yo no le voy a decir a un maricón de Barakaldo, que se quede en su…",
-      "fecha": "24 Sep 2025",
+      "fecha": "24/09/25",
+      "hora": "19:53",
+      "dia": "miércoles",
       "preview": "yo no le voy a decir a un maricón de Barakaldo, que se quede en su puta casa y que participe del tejido de los comercios locales porque pueda aprender",
       "media": null
     },
     {
       "archivo": "thincc/y si es la atencion.md",
       "titulo": "y si es la atencion",
-      "fecha": "09 Sep 2025",
+      "fecha": "09/09/25",
+      "hora": "23:13",
+      "dia": "martes",
       "preview": "lo que la biblia psiquica dice lo que tecnofeudalismo dice que ahora se comercia con? ya no te vendo alimento ahora vendo tu mirada",
       "media": null
     },
     {
       "archivo": "thincc/por eso triste ser -americano-.md",
       "titulo": "por eso triste ser \"americano\"",
-      "fecha": "07 Sep 2025",
+      "fecha": "07/09/25",
+      "hora": "12:51",
+      "dia": "domingo",
       "preview": "por qué un francés puede bañarse la historia de su pueblo y ser combativo o puede tirar por otro sitio y ser un fascista, pero hay un relato de lo que",
       "media": null
     },
     {
       "archivo": "thincc/en qué estaría pensando Aristóteles o Tomás de Aquino cuando dijo….md",
       "titulo": "en qué estaría pensando Aristóteles o Tomás de Aquino cuando dijo…",
-      "fecha": "06 Sep 2025",
+      "fecha": "06/09/25",
+      "hora": "15:43",
+      "dia": "sábado",
       "preview": "en qué estaría pensando Aristóteles o Tomás de Aquino cuando dijo que las hipótesis en ningún momento nos debían hacer confundir el modelo con la real",
       "media": null
     },
     {
       "archivo": "thincc/de hecho, la propia idea de un fin de semana.md",
       "titulo": "de hecho, la propia idea de un fin de semana",
-      "fecha": "05 Sep 2025",
+      "fecha": "05/09/25",
+      "hora": "19:50",
+      "dia": "viernes",
       "preview": "Nos delata que vivimos en una cultura donde hay una necesidad de descanso de el acumulamiento que supone la semana tú de verdad crees que cuando acaba",
       "media": null
     },
     {
       "archivo": "thincc/una vez todas las necesidades basicas y esenciales estwn cubiertas….md",
       "titulo": "una vez todas las necesidades basicas y esenciales estwn cubiertas…",
-      "fecha": "02 Sep 2025",
+      "fecha": "02/09/25",
+      "hora": "22:54",
+      "dia": "martes",
       "preview": "# una vez todas las necesidades basicas y esenciales estwn cubiertas pensaremos la riqueza e igual miro a otro lado cuando alguien se hinche de avaro ",
       "media": null
     },
     {
       "archivo": "thincc/cuando alguien usa el argumento del vicio para abolir la prostitucion.md",
       "titulo": "cuando alguien usa el argumento del vicio para abolir la prostitucion",
-      "fecha": "02 Sep 2025",
+      "fecha": "02/09/25",
+      "hora": "19:58",
+      "dia": "martes",
       "preview": "subir el precio del gas en la pandemia tambien es vicio, y uno que me parece aun peor pues ya no hablamos de adicciones sino de necesidades entiendo q",
       "media": null
     },
     {
       "archivo": "thincc/tanto keter como malkuth son agares(2), que enseña   todas   las   lenguas….md",
       "titulo": "tanto keter como malkuth son agares(2), que enseña   todas   las   lenguas…",
-      "fecha": "26 Aug 2025",
+      "fecha": "26/08/25",
+      "hora": "16:31",
+      "dia": "martes",
       "preview": "![D738656B-E309-472E-B240-78F9801BD8C5](images/D738656B-E309-472E-B240-78F9801BD8C5.png) tanto keter como malkuth son agares(2), que enseña   todas   ",
       "media": "img"
     },
     {
       "archivo": "thincc/para mí hay un tema interesante, cuando hablamos de la trampa que….md",
       "titulo": "para mí hay un tema interesante, cuando hablamos de la trampa que…",
-      "fecha": "24 Aug 2025",
+      "fecha": "24/08/25",
+      "hora": "18:20",
+      "dia": "domingo",
       "preview": "para mí hay un tema interesante, cuando hablamos de la trampa que son las políticas de identidad Es que para mí realmente la identidad no es sino como",
       "media": null
     },
     {
       "archivo": "thincc/Y también en esta línea de que lo de fuera lo de dentro lo de arriba….md",
       "titulo": "Y también en esta línea de que lo de fuera lo de dentro lo de arriba…",
-      "fecha": "21 Aug 2025",
+      "fecha": "21/08/25",
+      "hora": "19:37",
+      "dia": "jueves",
       "preview": "Y también en esta línea de que lo de fuera lo de dentro lo de arriba los de abajo Algo que me parece muy poético de la programación, es que no se pued",
       "media": null
     },
     {
       "archivo": "thincc/Creo que cuando me refiero a arquetipos para mí.md",
       "titulo": "Creo que cuando me refiero a arquetipos para mí",
-      "fecha": "21 Aug 2025",
+      "fecha": "21/08/25",
+      "hora": "14:12",
+      "dia": "jueves",
       "preview": "No tengo claro con esto patilla o estos llevo un cuento de estos Memes pero es como un Arki tipo por ejemplo la madre no hay muchísimos están en todas",
       "media": null
     },
     {
       "archivo": "thincc/creo que algo que es lo que más me molesta de la competición.md",
       "titulo": "creo que algo que es lo que más me molesta de la competición",
-      "fecha": "15 Aug 2025",
+      "fecha": "15/08/25",
+      "hora": "19:46",
+      "dia": "viernes",
       "preview": "Es como que es una cosa que lo que haces es averiguar quién es superior, que aquí ya hay una comparativa en la que puedes o no entrar, pero ya te lo e",
       "media": null
     },
     {
       "archivo": "thincc/si el azar es algo tan indiferente.md",
       "titulo": "si el azar es algo tan indiferente",
-      "fecha": "13 Aug 2025",
+      "fecha": "13/08/25",
+      "hora": "01:42",
+      "dia": "miércoles",
       "preview": "cómo es posible que aún no lo hayamos podido replicar? Qué dice el método cientifico sobre esto?",
       "media": null
     },
     {
       "archivo": "thincc/El tema de las patentes a mí por ejemplo me parece una locura porque….md",
       "titulo": "El tema de las patentes a mí por ejemplo me parece una locura porque…",
-      "fecha": "12 Aug 2025",
+      "fecha": "12/08/25",
+      "hora": "14:55",
+      "dia": "martes",
       "preview": "El tema de las patentes a mí por ejemplo me parece una locura porque es enaltecer el ego Y como un poco de darle bomba esta cosa de la meritocracia, n",
       "media": "img"
     },
     {
       "archivo": "thincc/A mí es que el rollito fairy.md",
       "titulo": "A mí es que el rollito fairy",
-      "fecha": "03 Aug 2025",
+      "fecha": "03/08/25",
+      "hora": "14:15",
+      "dia": "domingo",
       "preview": "no me gusta, no sé, es como que es como muy como un chic aburrido No me refiero a narrativas, o sea el personaje mitológico, genial que flipas, pero s",
       "media": null
     }
