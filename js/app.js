@@ -328,7 +328,7 @@ async function irANota(archivo) {
 }
 
 // ── badges ──
-// genera HTML con badges compactos para cada tipo aplicable a una nota.
+// genera HTML con micro etiquetas de texto para cada tipo aplicable a una nota.
 // una nota puede tener varios badges a la vez (ej. LNK + IMG + AUD)
 function badgeIcons(nota) {
   let html = '';

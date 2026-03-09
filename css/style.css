@@ -369,32 +369,32 @@ body {
   align-items: flex-end;
   margin: 8px -14px -12px 0;
   align-self: flex-end;
+  gap: 3px;
 }
 
-/* ── badge tags (IMG/VID/LNK/AUD) ──
-   etiquetas de texto compactas estilo brutalist.
-   en grid footer: fondo negro, misma altura que la fecha.
-   en lista: borde + fondo blanco, inline junto al nombre. */
+/* ── badge tags (LNK/IMG/VID/AUD) ──
+   micro etiquetas de texto compactas.
+   se muestran en grid footer y lista. */
 .badge-tag {
-  font-size: 0.5rem;
+  font-family: 'Space Mono', 'Courier New', monospace;
+  font-size: 7px;
   font-weight: 900;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   line-height: 1;
+  padding: 2px 3px;
+  border: 1.5px solid #1a1a1a;
   flex-shrink: 0;
-  border: 2px solid #1a1a1a;
-  padding: 2px 4px;
   background: #fff;
 }
 
-/* en grid footer: invertido (negro sobre crema) */
+/* en grid footer: invertido para encajar con el mordisco */
 .grid-item-footer .badge-tag {
   background: #1a1a1a;
   color: #fffce8;
   border: none;
-  border-top: 2px solid #1a1a1a;
-  border-left: 2px solid #1a1a1a;
-  padding: 3px 6px;
-  font-size: 0.6rem;
+  border-top: 1.5px solid #1a1a1a;
+  border-left: 1.5px solid #1a1a1a;
+  padding: 3px 4px;
 }
 
 /* en lista, badges van inline junto al nombre */
