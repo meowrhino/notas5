@@ -143,6 +143,24 @@ function mdToHtml(md, archivo) {
   const base = archivo.includes('/')
     ? 'notas/' + archivo.substring(0, archivo.lastIndexOf('/') + 1)
     : 'notas/';
+
+  // si el h1 está truncado con "…" y la primera línea de texto tiene
+  // el texto completo, usar el texto completo como h1 y quitar el duplicado
+  const lines = md.split('\n');
+  if (lines[0]?.startsWith('# ') && lines[0].endsWith('…')) {
+    const h1Prefix = lines[0].slice(2, -1); // quitar "# " y "…"
+    for (let i = 1; i < lines.length; i++) {
+      const line = lines[i].trim();
+      if (!line) continue; // saltar líneas vacías
+      if (line.startsWith(h1Prefix)) {
+        lines[0] = '# ' + line; // h1 = texto completo
+        lines[i] = '';           // quitar párrafo duplicado
+      }
+      break; // solo mirar el primer párrafo no-vacío
+    }
+    md = lines.join('\n');
+  }
+
   return md
     .replace(/^#{1,6}\s*$/gm, '')                     // quitar # sueltos
     .replace(/^### (.+)$/gm, '<h3>$1</h3>')
@@ -415,7 +433,7 @@ async function renderLectura(notas) {
   const promises = notas.map(async (nota) => {
     try {
       if (!mdCache.has(nota.archivo)) {
-        const res = await fetch(encodeURI(`notas/${nota.archivo}`));
+        const res = await fetch(encodeURI(`notas/${nota.archivo}`.normalize('NFC')));
         if (!res.ok) return { nota, html: '<p>No se pudo cargar.</p>' };
         mdCache.set(nota.archivo, await res.text());
       }
