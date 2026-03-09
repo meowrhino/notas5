@@ -76,24 +76,41 @@ const mdCache = new Map();
 
 // ── búsqueda y highlight ──
 
+// quita acentos: "así" → "asi", "sueños" → "suenos"
+function strip(s) {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 function getQuery() {
   return buscador.value.toLowerCase().trim();
+}
+
+// construye un regex que matchea cada letra con o sin acento
+// "asi" matchea "así", "cafe" matchea "café", etc.
+function accentRegex(query) {
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // para cada carácter ASCII que tiene variantes acentuadas,
+  // reemplazar por una clase de caracteres que incluya todas las variantes
+  const flexed = strip(escaped).replace(/a/g, '[aáàäâã]')
+    .replace(/e/g, '[eéèëê]')
+    .replace(/i/g, '[iíìïî]')
+    .replace(/o/g, '[oóòöôõ]')
+    .replace(/u/g, '[uúùüû]')
+    .replace(/n/g, '[nñ]');
+  return new RegExp(`(${flexed})`, 'gi');
 }
 
 // highlight para texto plano (títulos, previews en grid/lista)
 function highlightText(text, query) {
   if (!query) return text;
-  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const re = new RegExp(`(${escaped})`, 'gi');
-  return text.replace(re, '<mark class="highlight">$1</mark>');
+  return text.replace(accentRegex(query), '<mark class="highlight">$1</mark>');
 }
 
 // highlight para HTML renderizado (lectura) — solo reemplaza en
 // segmentos de texto, nunca dentro de tags HTML
 function highlightHtml(html, query) {
   if (!query) return html;
-  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const re = new RegExp(`(${escaped})`, 'gi');
+  const re = accentRegex(query);
   return html.replace(/(<[^>]+>)|([^<]+)/g, (match, tag, text) => {
     if (tag) return tag;
     return text.replace(re, '<mark class="highlight">$1</mark>');
@@ -105,9 +122,10 @@ function notasFiltradas() {
   const notas = categorias[categoriaActual] || [];
   const q = getQuery();
   if (!q) return notas;
+  const qNorm = strip(q);
   return notas.filter(n =>
-    (n.titulo || '').toLowerCase().includes(q) ||
-    (n.preview || '').toLowerCase().includes(q)
+    strip((n.titulo || '').toLowerCase()).includes(qNorm) ||
+    strip((n.preview || '').toLowerCase()).includes(qNorm)
   );
 }
 
@@ -397,7 +415,7 @@ async function renderLectura(notas) {
   const promises = notas.map(async (nota) => {
     try {
       if (!mdCache.has(nota.archivo)) {
-        const res = await fetch(`notas/${nota.archivo}`);
+        const res = await fetch(encodeURI(`notas/${nota.archivo}`));
         if (!res.ok) return { nota, html: '<p>No se pudo cargar.</p>' };
         mdCache.set(nota.archivo, await res.text());
       }
